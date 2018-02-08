@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+	<album genre="Country">
+		<albumName>Montevallo</albumName>
+		<artist age="23">Sam Hunt</artist>
+		<company>Universal Music</company>
+		<condition>M</condition>
+		<year>2014</year>
+		<price>$26.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Jekyll Plus Hyde</albumName>
+		<artist>Zac Brown Band</artist>
+		<company>In the Arena Productions</company>
+		<condition>VG</condition>
+		<year>2015</year>
+		<price>$28.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Kill the Lights</albumName>
+		<artist>Luke Bryan</artist>
+		<company>Capitol Nashville</company>
+		<condition>VG</condition>
+		<year>2015</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Old Boots, New Dirt</albumName>
+		<artist>Jason Aldean</artist>
+		<company>Broken Bow Records</company>
+		<condition>VP</condition>
+		<year>2014</year>
+		<price>$16.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>The Essential Johnny Cash</albumName>
+		<artist>Johnny Cash</artist>
+		<company>Universal Music</company>
+		<condition>VG</condition>
+		<year>1955</year>
+		<price>$29.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Chief</albumName>
+		<artist>Eric Church</artist>
+		<company>EMI Records </company>
+		<condition>G</condition>
+		<year>2011</year>
+		<price>$16.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Greatest Hits</albumName>
+		<artist>Shania Twain</artist>
+		<company>Mercury Records</company>
+		<condition>P</condition>
+		<year>2004</year>
+		<price>$9.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Strait Country</albumName>
+		<artist>George Strait</artist>
+		<company>MCA Nashville</company>
+		<condition>VP</condition>
+		<year>1981</year>
+		<price>$6.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Riser</albumName>
+		<artist>Dierks Bentley</artist>
+		<company>Capitol Records</company>
+		<condition>G</condition>
+		<year>2014</year>
+		<price>$22.00</price>
+	</album>
+	<album genre="Country">
+		<albumName>Wanted! The Outlaws</albumName>
+		<artist>Willie Nelson</artist>
+		<artist>Waylon Jennings</artist>
+		<artist>Jessi Colter</artist>
+		<artist>Tompall Glaser</artist>
+		<company>Sony Music</company>
+		<condition>M</condition>
+		<year>1976</year>
+		<price>$34.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>Kind of Blue</albumName>
+		<artist>Miles Davis</artist>
+		<artist>John Coltrane</artist>
+		<company>Columbia</company>
+		<condition>M</condition>
+		<year>1959</year>
+		<price>$40.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>Cookin</albumName>
+		<artist>Miles Davis</artist>
+		<company>Prestige</company>
+		<condition>VG</condition>
+		<year>1957</year>
+		<price>$20.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>A Love Supreme</albumName>
+		<artist>John Coltrane</artist>
+		<company>Analogue Productions</company>
+		<condition>VG</condition>
+		<year>1965</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>Saxophone Colossus</albumName>
+		<artist>Sonny Rollins</artist>
+		<company>Analogue Productions</company>
+		<condition>G</condition>
+		<year>1956</year>
+		<price>$19.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>Concert By the Sea</albumName>
+		<artist>Erroll Garner</artist>
+		<company>Columbia</company>
+		<condition>P</condition>
+		<year>1955</year>
+		<price>$12.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>Spiritual Unity</albumName>
+		<artist>Albert Ayler</artist>
+		<company>ESP Disk</company>
+		<condition>VG</condition>
+		<year>1964</year>
+		<price>$29.00</price>
+	</album>
+	<album genre="Jazz">
+		<albumName>The Incredible Jazz Guitar of Wes Montgomery</albumName>
+		<artist>Wes Montgomery</artist>
+		<company>Riverside Records</company>
+		<condition>VP</condition>
+		<year>1960</year>
+		<price>$11.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Pink Moon</albumName>
+		<artist>Nick Drake</artist>
+		<company>Island</company>
+		<condition>G</condition>
+		<year>1972</year>
+		<price>$21.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>The Bootleg Series Vol. 6: Bob Dylan Live 1964 - Concert at Philharmonic Hall</albumName>
+		<artist>Bob Dylan</artist>
+		<company>Columbia</company>
+		<condition>P</condition>
+		<year>1964</year>
+		<price>$28.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Once I Was an Eagle</albumName>
+		<artist>Laura Marling</artist>
+		<company>Virgin</company>
+		<condition>P</condition>
+		<year>2013</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Torres</albumName>
+		<artist>Torres</artist>
+		<company>Self-Released</company>
+		<condition>M</condition>
+		<year>2013</year>
+		<price>$20.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Fairport Convention</albumName>
+		<artist>Liege and Lief</artist>
+		<company>Island Records</company>
+		<condition>M</condition>
+		<year>1967</year>
+		<price>$31.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Mr. Tambourine Man</albumName>
+		<artist>The Byrds</artist>
+		<company>Columbia</company>
+		<condition>P</condition>
+		<year>1965</year>
+		<price>$18.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>Sgt. Pepper's Lonely Hearts Club Band</albumName>
+		<artist>The Beatles</artist>
+		<company>EMI</company>
+		<condition>M</condition>
+		<year>1967</year>
+		<price>$44.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>Whole Lotta Shakin' </albumName>
+		<artist>Carl Perkins</artist>
+		<company>CBS</company>
+		<condition>P</condition>
+		<year>1958</year>
+		<price>$12.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>Ray Charles</albumName>
+		<artist>Ray Charles</artist>
+		<company>Amiga</company>
+		<condition>G</condition>
+		<year>1957</year>
+		<price>$14.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>Go Bo Diddley</albumName>
+		<artist>Bo Diddley</artist>
+		<company>Hallmark Records</company>
+		<condition>VP</condition>
+		<year>1959</year>
+		<price>$6.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>King Creole </albumName>
+		<artist>Elvis Presley</artist>
+		<company>RCA Victor</company>
+		<condition>G</condition>
+		<year>1958</year>
+		<price>$19.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>Buddy Holly</albumName>
+		<artist>Buddy Holly</artist>
+		<company>EMI</company>
+		<condition>VG</condition>
+		<year>1958</year>
+		<price>$14.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>The "Chirping" Crickets</albumName>
+		<artist>The Crickets</artist>
+		<company>Brunswick Records</company>
+		<condition>P</condition>
+		<year>1957</year>
+		<price>$14.00</price>
+	</album>
+	<album genre="Oldies">
+		<albumName>Rock 'n' Roll Stage Show</albumName>
+		<artist>Bill Haley and His Comets</artist>
+		<company>Decca Records</company>
+		<condition>VG</condition>
+		<year>1956</year>
+		<price>$25.00</price>
+	</album>
+	<album genre="Pop">
+		<albumName>1989</albumName>
+		<artist>Taylor Swift</artist>
+		<company>Big Machine Records</company>
+		<condition>VP</condition>
+		<year>2014</year>
+		<price>$2.00</price>
+	</album>
+	<album genre="Pop">
+		<albumName>Delirium</albumName>
+		<artist>Ellie Goulding</artist>
+		<company>Polydor Records</company>
+		<condition>P</condition>
+		<year>2015</year>
+		<price>$12.00</price>
+	</album>
+	<album genre="Pop">
+		<albumName>Title</albumName>
+		<artist>Meghan Trainor</artist>
+		<company>Epic Records</company>
+		<condition>M</condition>
+		<year>2015</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Pop">
+		<albumName>In the Lonely Hour</albumName>
+		<artist>Sam Smith</artist>
+		<company>Capitol Records</company>
+		<condition>M</condition>
+		<year>2014</year>
+		<price>$27.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>Ready to Die</albumName>
+		<artist>The Notorious B.I.G.</artist>
+		<company>Big Beat Records</company>
+		<condition>G</condition>
+		<year>1994</year>
+		<price>$21.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>It Takes a Nation of Millions to Hold Us Back</albumName>
+		<artist>Public Enemy</artist>
+		<company>Columbia</company>
+		<condition>VG</condition>
+		<year>1988</year>
+		<price>$20.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>The Chronic</albumName>
+		<artist>Dr Dre</artist>
+		<company>Priority Records</company>
+		<condition>M</condition>
+		<year>1992</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>Straight Outta Compton</albumName>
+		<artist>NWA</artist>
+		<company>Ruthless Records</company>
+		<condition>P</condition>
+		<year>1988</year>
+		<price>$19.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>AmeriKKKa's Most Wanted</albumName>
+		<artist>Ice Cube</artist>
+		<company>Priority Records</company>
+		<condition>VP</condition>
+		<year>1990</year>
+		<price>$12.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>Reasonable Doubt</albumName>
+		<artist>Jay-Z</artist>
+		<company>Priority Records</company>
+		<condition>M</condition>
+		<year>1996</year>
+		<price>$24.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>Raising Hell</albumName>
+		<artist>Run–D.M.C.</artist>
+		<company>Arista Records</company>
+		<condition>G</condition>
+		<year>1986</year>
+		<price>$21.00</price>
+	</album>
+	<album genre="Rap">
+		<albumName>The Slim Shady LP</albumName>
+		<artist>Eminem</artist>
+		<company>Interscope Records</company>
+		<condition>VG</condition>
+		<year>1999</year>
+		<price>$22.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Revolver</albumName>
+		<artist>The Beatles</artist>
+		<company>Capitol Records</company>
+		<condition>G</condition>
+		<year>1966</year>
+		<price>$19.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>London Calling</albumName>
+		<artist>The Clash</artist>
+		<company>Epic Records</company>
+		<condition>M</condition>
+		<year>1979</year>
+		<price>$26.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Led Zeppelin [IV]</albumName>
+		<artist>Led Zeppelin</artist>
+		<company>Atlantic Records</company>
+		<condition>VG</condition>
+		<year>1971</year>
+		<price>$32.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Are You Experienced?</albumName>
+		<artist>The Jimi Hendrix Experience</artist>
+		<company>Track Record</company>
+		<condition>P</condition>
+		<year>1967</year>
+		<price>$63.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Who's Next </albumName>
+		<artist>The Who</artist>
+		<company>Decca Records</company>
+		<condition>G</condition>
+		<year>1971</year>
+		<price>$21.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>The Rise and Fall of Ziggy Stardust and the Spiders From Mars</albumName>
+		<artist>David Bowie</artist>
+		<company>RCA Victor</company>
+		<condition>M</condition>
+		<year>1972</year>
+		<price>$53.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Back in Black</albumName>
+		<artist>AC/DC</artist>
+		<company>Atlantic</company>
+		<condition>VG</condition>
+		<year>1980</year>
+		<price>$28.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>The Doors</albumName>
+		<artist>The Doors</artist>
+		<company>Elektra Records</company>
+		<condition>VP</condition>
+		<year>1966</year>
+		<price>$12.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Rumours</albumName>
+		<artist>Fleetwood Mac</artist>
+		<company>Warner Bros Records</company>
+		<condition>VG</condition>
+		<year>1977</year>
+		<price>$24.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Paranoid</albumName>
+		<artist>Black Sabbath</artist>
+		<company>Warner Bros Records</company>
+		<condition>VP</condition>
+		<year>1970</year>
+		<price>$6.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Hotel California</albumName>
+		<artist>Eagles</artist>
+		<company>Asylum Records</company>
+		<condition>M</condition>
+		<year>1976</year>
+		<price>$30.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Van Halen</albumName>
+		<artist>Van Halen</artist>
+		<company>Warner Bros Records</company>
+		<condition>G</condition>
+		<year>1978</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Rock">
+		<albumName>Never Mind the Bollocks Here's the Sex Pistols</albumName>
+		<artist>Sex Pistols</artist>
+		<company>Warner Bros Records</company>
+		<condition>P</condition>
+		<year>1977</year>
+		<price>$23.00</price>
+	</album>
+</albums>

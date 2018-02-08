@@ -1,0 +1,272 @@
+@import url('http://fonts.googleapis.com/css?family=Cookie');
+
+@media all and (min-width: 768px) {
+    .notMobile {
+        display: inline !important;
+    }
+    .formDiv {
+        margin-bottom: 5em;
+    }
+    .listArt img {
+        margin-left: 35%;
+        margin-bottom: 5%;
+        margin-right: auto;
+    }
+    .listBlock {
+        height: 30em;
+    }
+    .artistPara {
+        margin-top: 5%;
+    }
+	#scroll {
+	font-weight: bold;
+	text-align: center;
+	background-color: #104000 !important;
+	float: left;
+	padding: .25%;
+	cursor: pointer;
+    }
+    .listDisplay {
+        border-color: black !important;
+        border-style: solid !important;
+        border-width: .3em;
+
+    }
+
+    #theHeaderTitle {
+        /*background-color: #f1e9d2;*/
+        border-left: none !important;
+        border-right: none !important;
+        border-top-color: black;
+    }
+
+    .listNameData {
+        font-weight: bold;
+    }
+
+    .listLastUpdated {
+        font-size: .5em;
+        text-align: center;
+        position: relative;
+        bottom: 15%;
+    }
+
+    .listName {
+        font-size: 2em;
+        font-weight: bold;
+        /*margin-left: 50%;*/
+        word-wrap: break-word;
+        position: relative;
+        top: -2em;
+        height: 3em;
+    }
+
+    .childrenBlock {
+        margin-top: 1%;
+    }
+
+    body {
+        /*height: 100%;*/
+        /*padding-bottom: 60em;*/
+    }
+    /*.staticFixed {*/
+        /*margin-top: 50em;*/
+    /*}*/
+
+
+
+
+
+
+}
+
+body {
+    background-color: #F0F0F0;
+    padding-bottom: 100px;
+}
+
+#home {
+    background-color: #8F1111;
+}
+
+.navbar {
+    color: white;
+    border-color: darkred;
+    border-bottom-color: darkred;
+    background-color:#C21717;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:visited {
+    background-color: #3D7F27;
+}
+
+.navbar li a:hover {
+    background-color: #8F1111;
+}
+
+.bottomnav {
+    margin-top: 1em;
+	font-weight: bold;
+    width: 100%;
+}
+
+
+.listBlock {
+    margin-top: 3%;
+    background-color: white;
+    border-style: solid;
+    border-width: .25em;
+}
+
+.listID {
+    /*background-color: white;*/
+    font-size: 1.5em;
+    font-family: serif;
+    float:left;
+    border-radius: 50%;
+    padding: 1%;
+    /*margin-left: 21%;*/
+    /*border-style: solid;*/
+    /*border-width: thin;*/
+
+
+}
+
+.listName {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: -5%;
+    margin-left: 21%;
+    word-wrap: break-word;
+
+}
+
+
+.listAge {
+    font-size: 1.5em;
+
+}
+
+.notMobile {
+    display: none;
+}
+
+.formDiv {
+    margin-bottom: .5em;
+	z-index: 3;
+}
+
+.listDisplay {
+    background-color: #f1e9d2;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-color: black;
+    border-width: .3em;
+    border-style: solid;
+    border-top-style: none;
+
+}
+
+#scroll {
+	font-weight: bold;
+	text-align: center;
+	background-color: #8F1111 !important;
+	float: left;
+	padding: .25%;
+	cursor: pointer;
+}
+
+.listTitle {
+    text-align: center;
+    font-family: 'Cookie', sans;
+    font-size: 3.5em;
+    font-weight: bold;
+    border-style: solid;
+    background-color: #F0F0F0;
+    /*background-color: #3D7F27;*/
+}
+
+.childrenBlock {
+    /*background-color: darkslategrey;*/
+    background-color: #F0F0F0;
+    padding: 1%;
+    border-style: solid;
+    border-width: .2em;
+}
+#theHeaderTitle {
+    background-color: #f1e9d2;
+    border-width: .3em;
+    border-color: black;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+}
+
+.listNameData {
+    margin-bottom: 5%;
+    font-weight: bold;
+
+}
+
+.listCityData {
+    font-size: .75em !important;
+    float: left;
+    word-wrap: break-word;
+
+}
+.listLastUpdated {
+    font-size: .5em;
+    margin-bottom: 6%;
+    text-align: center;
+    position: relative;
+    bottom: 12%;
+
+}
+
+.listName span {
+    margin-top: 1%;
+    font-size: .75em;
+}
+.hint {
+    font-size: 1em;
+    float: left;
+    cursor: pointer;
+
+}
+.moreDetailsName {
+    text-align: center;
+}
+
+.moreDetailsDiv {
+    background-color: #F0F0F0;
+    border: .2em solid black;
+    border-top: none;
+}
+
+.moreDetailsListAlign {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid black;;
+}
+
+
+
+dl dt {
+    margin-top: .5em;
+    font-size: 1.2em;
+}
+dl dd {
+    font-size: 1.2em;
+}
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+@media all and (min-width: 768px) {
+    .notMobile {
+        display: inline !important;
+    }
+    .formDiv {
+        margin-bottom: 5em;
+    }
+
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+#home {
+    background-color: #104000;
+}
+
+.navbar {
+    color: white;
+    border-color: #207F01;
+    border-bottom-color: white;
+    background-color: #3D7F27;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:visited {
+    background-color: #3D7F27;
+}
+
+.navbar li a:hover {
+    background-color: #3AB213;
+}
+
+.bottomnav {
+    margin-top: 1em;
+	font-weight: bold;
+}
+.notMobile {
+    display: none;
+}
+
+.formDiv {
+    margin-bottom: .5em;
+}
+
+.formatError {
+	display: inline;
+	float: right;
+	background-color: #FFA500;
+	border-radius: 5px;
+	padding: .1em;
+}
+.error {
+	border-color: red;
+	border-width: thin;
+	border-style: solid;
+  background-color: pink;
+}
+#genre-error {
+	padding: .2em;
+	background-color: #F0F0F0;
+	border-color: #F0f0f0;
+  color: red;
+}
+#albumName-error {
+  padding: .2em;
+	background-color: #F0F0F0;
+	border-color: #F0f0f0;
+  color: red;
+}
+#artist-error {
+  padding: .2em;
+  background-color: #F0F0F0;
+  border-color: #F0f0f0;
+  color: red;
+}
+#company-error {
+  padding: .2em;
+  background-color: #F0F0F0;
+  border-color: #F0f0f0;
+  color: red;
+}
+#condition-error {
+  padding: .2em;
+  background-color: #F0F0F0;
+  border-color: #F0f0f0;
+  color: red;
+}
+#year-error {
+  padding: .2em;
+  background-color: #F0F0F0;
+  border-color: #F0f0f0;
+  color: red;
+}
+#price-error {
+  padding: .2em;
+  background-color: #F0F0F0;
+  border-color: #F0f0f0;
+  color: red;
+}
+.message {
+  margin-top: .5em;
+  float: right;
+  font-weight: bold;
+  color: green;
+}
+#scroll {
+	font-weight: bold;
+	text-align: center;
+	background-color: #104000 !important;
+	float: left;
+	padding: .25%;
+	cursor: pointer;
+}

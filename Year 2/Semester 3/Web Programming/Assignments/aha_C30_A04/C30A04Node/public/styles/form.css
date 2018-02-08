@@ -1,0 +1,22 @@
+body {
+    background-color: darkgreen;
+}
+label {
+    font-weight: bold;
+    text-align: left;
+    width: 7em;
+    display: inline-block;
+}
+form {
+    width: 20em;
+    margin-left: 35%;
+    margin-right: auto;
+    background-color: lightgreen;
+    border-color: black;
+    padding: 1em;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

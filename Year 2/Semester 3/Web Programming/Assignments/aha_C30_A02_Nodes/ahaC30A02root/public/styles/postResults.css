@@ -1,0 +1,25 @@
+body {
+    background-color: steelblue;
+}
+p {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+div {
+    margin-left: 30%;
+    margin-right: auto;
+    width: 50%;
+    background-color: #8FA5CE;
+    height: 15em;
+
+}
+h1 {
+    text-align: center;
+    font-weight:  bolder;
+    color: white;
+}
+span {
+    text-align: right;
+}

@@ -1,0 +1,19 @@
+F, The winner of the silver medal in the mens 200m race in Rio was _Andre Degrasse_.
+
+F, _Penny olexsiak_ was the Canadian flag bearer at the closing ceremonies in Rio.
+
+F, Canada won a total of _22_ medals at the Rio Olympics.
+
+N, How fast did Usain Bolt run the men’s 100m final in Rio?, 9.81
+
+N, What is the Olympic Record in the men’s 100m sprint?, 9.58
+
+S, What country won the most number of medals at the Rio Olympics?, 5, Australia, incorrect, Canada, incorrect, China, incorrect, United States, correct, Great Britain, incorrect
+
+S, What country won the most number of gold medals at the Rio Olympics?, 3, China, incorrect, United States, correct, Great Britain, incorrect
+
+M, Which countries were in the women’s bronze medal game for rugby 7s at the Rio Olympics?, 6, China, incorrect, United States, incorrect, Great Britain, correct, Canada, correct, Germany, incorrect, France, incorrect
+
+M, Which countries medalled in women’s rugby 7s at the Rio Olympics?, 8, China, incorrect, United States, incorrect, Great Britain, incorrect, Canada, correct, Germany, incorrect, France, incorrect, Australia, correct, New Zealand, correct
+
+S, Canada met its goal for number of medals at the Rio Olympics., 2, True, correct, False, incorrect

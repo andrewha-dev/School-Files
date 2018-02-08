@@ -1,0 +1,78 @@
+body { 	
+	background-color: #8FA5CE;
+	background: linear-gradient(red, green, blue, yellow);
+}
+
+h1 { font-family: Arial, Verdana; sans-serif;
+	 text-align: center;
+	 border-width: 2px;
+	 border-style: solid;
+	 border-color: #ff0000;
+	 border-radius: 15px;
+}
+h2 { background-color: #99FFFF;
+	opacity: 0.6;
+	 color: #003300;
+	 font-family: "Comic Sans MS", Verdana, sans-serif;
+	 border: 2px solid #000033;
+	 border-bottom-left-radius: 20px;
+	 border-top-right-radius: 40px;
+	 border-bottom-right-radius: 60px;
+	 border-top-left-radius: 4px;
+}
+
+.rounded {
+	height: 70px;
+	width: 70px;
+	background-color: #cccccc;
+	text-align:center;
+	vertical-align:middle;
+	border-radius: 35px;
+	box-shadow: -5px 5px 5px #828282;
+	
+}
+ul {
+	font-weight: bold;
+}
+li {	   
+} 
+
+p  {
+	font-size: .90em;
+}
+
+.new { color: #FF0000;
+       font-style: italic;
+       font-size: 2.5em;
+}
+#idnew { color: #af1400;
+		 font-style: italic;
+		 font-size: 1.5em;
+}
+.footer { font-size: small;
+          text-align: center;
+          font-family: Verdana,Arial,sans-serif;
+}
+.companyname { font-weight: bold;
+			   font-family: Georgia, "Times New Roman", serif;
+			   font-size: 1.25em;
+}
+#container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		padding: 60px;
+		border: 20px dashed black;
+		background-image: url(../images/ballooninsky.jpg);
+		background-attachment: fixed;
+		background-clip: border-box;
+		box-shadow: 5px 5px 5px #828282;
+}
+
+
+
+
+
+
+
+

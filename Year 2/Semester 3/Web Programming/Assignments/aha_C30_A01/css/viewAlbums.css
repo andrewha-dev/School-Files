@@ -1,0 +1,136 @@
+@media all and (min-width: 768px) {
+    .notMobile {
+        display: inline !important;
+    }
+    .formDiv {
+        margin-bottom: 5em;
+    }
+    .albumArt img {
+        margin-left: 35%;
+        margin-bottom: 5%;
+        margin-right: auto;
+    }
+    .albumBlock {
+        height: 30em;
+    }
+    .artistPara {
+        margin-top: 5%;
+    }
+	#scroll {
+	font-weight: bold;
+	text-align: center;
+	background-color: #104000 !important;
+	float: left;
+	padding: .25%;
+	cursor: pointer;
+}
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+#home {
+    background-color: #104000;
+}
+
+.navbar {
+    color: white;
+    border-color: #207F01;
+    border-bottom-color: white;
+    background-color: #3D7F27;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:visited {
+    background-color: #3D7F27;
+}
+
+.navbar li a:hover {
+    background-color: #3AB213;
+}
+
+.bottomnav {
+    margin-top: 1em;
+	font-weight: bold;
+}
+
+
+.albumBlock {
+    margin-top: 3%;
+    background-color: white;
+    border-style: solid;
+    border-width: .2.5em;
+}
+
+.albumArea {
+
+}
+
+.albumArt {
+    width: 100%;
+    border-color: white;
+}
+
+.notMobile {
+    display: none;
+}
+
+.formDiv {
+    margin-bottom: .5em;
+	z-index: 3;
+}
+
+.titleSpan {
+    text-align: right;
+    font-size: 1.4em;
+    font-weight: bold;
+    float: right;
+}
+
+.artistSpan {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: right;
+}
+
+.companySpan {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: right;
+}
+
+.conditionSpan {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: right;
+}
+
+.yearSpan {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: right;
+}
+
+.priceSpan {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: right;
+}
+
+#scroll {
+	font-weight: bold;
+	text-align: center;
+	background-color: #104000 !important;
+	float: left;
+	padding: .25%;
+	cursor: pointer;
+}

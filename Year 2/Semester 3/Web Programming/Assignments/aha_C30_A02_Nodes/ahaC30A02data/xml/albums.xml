@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+	<album genre="Folk">
+		<albumName>Pink Moon</albumName>
+		<artist>Nick Drake</artist>
+		<company>Island</company>
+		<condition>G</condition>
+		<year>1972</year>
+		<price>$21.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>The Bootleg Series Vol. 6: Bob Dylan Live 1964 - Concert at Philharmonic Hall</albumName>
+		<artist>Bob Dylan</artist>
+		<company>Columbia</company>
+		<condition>P</condition>
+		<year>1964</year>
+		<price>$28.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Once I Was an Eagle</albumName>
+		<artist>Laura Marling</artist>
+		<company>Virgin</company>
+		<condition>P</condition>
+		<year>2013</year>
+		<price>$23.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Torres</albumName>
+		<artist>Torres</artist>
+		<company>Self-Released</company>
+		<condition>M</condition>
+		<year>2013</year>
+		<price>$20.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Fairport Convention</albumName>
+		<artist>Liege and Lief</artist>
+		<company>Island Records</company>
+		<condition>M</condition>
+		<year>1967</year>
+		<price>$31.00</price>
+	</album>
+	<album genre="Folk">
+		<albumName>Mr. Tambourine Man</albumName>
+		<artist>The Byrds</artist>
+		<company>Columbia</company>
+		<condition>P</condition>
+		<year>1965</year>
+		<price>$18.00</price>
+	</album>
+</albums>
+	

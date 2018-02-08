@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/viewAlbums.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+    <title>Album Search</title>
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Album Shop</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li id="home"><a href="viewAlbums.html">Album Viewer</a></li>
+                <li><a href="addAlbums.html">Album Adder</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid formDiv">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-4 col-lg-offset-4  formClass">
+            <form id="genre">
+                <select class="form-control">
+              <option selected disabled >Genres</option>
+          </select>
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid albumDisplay">
+
+    </div>
+    <nav id="lol" class="navbar navbar-inverse bottomnav">
+        <div class="container-fluid">
+            <p>All images have been modified, center of vinyls have been edited. Credits to Betmari.</br> <a href="https://creativecommons.org/licenses/by-nc/2.0/">License</a> --- <a href="https://www.flickr.com/photos/76999192@N06/8914588844/in/photolist-ezKAFE-neeF7m-nLVGch-nyfwUw-2EKLr-djzKjh-2EKLs-2EKLt-62xqqs-7KRTmw-oUXh-867yhE-bk4AGp-9oo5qE-7KRTw1-dChZxr-bNHSpV-3GTGCg-9zqNo4-9zqN3K-cckedh-f6aGJ5-iePd8W-bzPejY-q5Q86N-nfZL96-ieHBN2-dwUa8N-9zqMSa-iezNHe-idtm3E-ooKKDQ-6fpTHb-a7MHPX-bvuLXs-8MGKA8-9zqPeM-ieDFnL-9zufa1-ktY4h9-7tpsGG-qDCGR3-ieA4nq-bjGZD7-ieAdML-qFznqK-qsQ6db-rnH3w3-9FMgdu-doCjSn">Original Image</a>                </p>
+			<p id="scroll"><a>Scroll to the top</a> &nbsp; <span class="glyphicon glyphicon-arrow-up"></span></p>
+        </div>
+    </nav>
+    <script src="./scripts/viewAlbums.js"></script>
+</body>
+
+</html>

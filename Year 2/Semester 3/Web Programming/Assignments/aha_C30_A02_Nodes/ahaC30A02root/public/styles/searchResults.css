@@ -1,0 +1,20 @@
+body {
+    background-color: blue;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 1em !important;
+    color: white;
+}

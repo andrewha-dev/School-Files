@@ -1,0 +1,13 @@
+{
+  "name": "aha_C30_A02_node.js",
+  "version": "1.0.0",
+  "description": "This is the js file that runs from node",
+  "main": "server.js",
+  "repository": "None",
+  "license": "UNLICENSED",
+  "author": "Andrew Ha",
+  "dependencies": {
+    "xml2js": "*",
+    "pug":"*"
+  }
+}

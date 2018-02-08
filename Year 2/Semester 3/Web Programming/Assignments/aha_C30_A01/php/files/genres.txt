@@ -1,0 +1,7 @@
+Country
+Folk
+Jazz
+Oldies
+Pop
+Rap
+Rock

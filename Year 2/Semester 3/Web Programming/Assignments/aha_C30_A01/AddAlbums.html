@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/addAlbums.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   crossorigin="anonymous"></script>
+	<script src ="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Album Adding</title>
+</head>
+
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Album Shop</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="viewAlbums.html">Album Viewer</a></li>
+            <li id="home"><a href="addAlbums.html">Album Adder</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<body>
+  <div class="container-fluid formDiv">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xs-offset-0 col-sm-offset-3 col-md-offset-4 col-lg-offset-4  formClass">
+		<form id="genreForm" name="GenreForm">
+		  <div class="form-group">
+			<label for="genre" >Genre:</label>
+			<select name="genre" class="form-control" id="genre">
+        <option></option>
+			</select>
+		  </div>
+
+		  <div class="form-group">
+			<label for="albumName">Album Name: </label>
+			<input class="form-control" type="text" name="albumName" id="albumName" />
+		  </div>
+		  <div class="form-group">
+			<label for="artist">Artist: </label>
+			<input class="form-control" type="text" name="artist" id="artist" />
+		  </div>
+		  <div class="form-group">
+			<label for="company">Company: </label>
+			<input class="form-control" type="text" name="company" id="company" />
+		  </div>
+		  <div class="form-group">
+			<label for="condition">Condition: </label>
+			<select class="form-control" name="condition" id="condition">
+        <option value=""></option>
+			  <option value="M">Mint</option>
+			  <option value="VG">Very Good</option>
+			  <option value="G">Good</option>
+			  <option value="P">Poor</option>
+			  <option value="VP">Very Poor</option>
+			</select>
+		  </div>
+		  <div class="form-group">
+			<label for="year">Year: </label>
+			<input class="form-control" type="text" name="year" id="year" />
+		  </div>
+		  <div class="form-group">
+			<label for="price">Price: </label>
+			<input class="form-control" type="text" name="price" id="price" />
+		  </div>
+
+			<button id="add" type="button" class="btn btn-default">
+			<span class="glyphicon glyphicon-plus"></span> Add Album
+			</button>
+			<button id="clear" type="button" class="btn btn-default">
+			<span class="glyphicon glyphicon-refresh"></span> Clear
+			</button>
+      <p class="message"><span class="glyphicon glyphicon-ok"></span> &nbsp; Your album has been added</p>
+		</form>
+    </div>
+  </div>
+
+    <nav class="navbar navbar-inverse bottomnav">
+        <div class="container-fluid">
+            <p>All images have been modified, center of vinyls have been edited. Credits to Betmari.</br> <a href="https://creativecommons.org/licenses/by-nc/2.0/">License</a> --- <a href="https://www.flickr.com/photos/76999192@N06/8914588844/in/photolist-ezKAFE-neeF7m-nLVGch-nyfwUw-2EKLr-djzKjh-2EKLs-2EKLt-62xqqs-7KRTmw-oUXh-867yhE-bk4AGp-9oo5qE-7KRTw1-dChZxr-bNHSpV-3GTGCg-9zqNo4-9zqN3K-cckedh-f6aGJ5-iePd8W-bzPejY-q5Q86N-nfZL96-ieHBN2-dwUa8N-9zqMSa-iezNHe-idtm3E-ooKKDQ-6fpTHb-a7MHPX-bvuLXs-8MGKA8-9zqPeM-ieDFnL-9zufa1-ktY4h9-7tpsGG-qDCGR3-ieA4nq-bjGZD7-ieAdML-qFznqK-qsQ6db-rnH3w3-9FMgdu-doCjSn">Original Image</a>                </p>
+			<p id="scroll"><a>Scroll to the top</a> &nbsp; <span class="glyphicon glyphicon-arrow-up"></span></p>
+        </div>
+		
+    </nav>
+    <script src="./scripts/addAlbums.js"></script>
+</body>
+
+</html>

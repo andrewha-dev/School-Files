@@ -1,0 +1,19 @@
+@import url('http://fonts.googleapis.com/css?family=Cookie');
+body {
+    background-color: #F24236;
+}
+.errorCode {
+    font-family: 'Cookie', serif;
+    text-align: center;
+    font-weight: bold;
+    /*color: #1f3759;*/
+    font-size: 10em;
+    color: white;
+}
+.message {
+    font-family: 'Cookie', serif;
+    text-align: center;
+    /*color: #1f3759;*/
+    font-size: 3em;
+    color: white;
+}

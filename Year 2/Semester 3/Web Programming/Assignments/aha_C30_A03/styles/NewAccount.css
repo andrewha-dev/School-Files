@@ -1,0 +1,48 @@
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: #4686FF;
+    border-radius: 25px;
+    color: #FFBD2C;
+
+    font-family: Tahoma, Geneva, sans-serif;
+}
+body {
+    background-color: #1048B2;
+}
+#formDiv {
+    background-color: #4686FF;
+    padding: 1em;
+    border-radius: 25px;
+    text-align: center;
+
+}
+#formDiv p {
+    /*width: 30em;*/
+    text-align: center;
+}
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFBD2C;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: right;
+    width: 12em;
+    display: inline-block;
+}
+p input {
+    margin-left: 1em;
+    height: 2em;
+    width:20em;
+
+}
+p select {
+    margin-left: 1em;
+    height: 2em;
+    width:20em;
+}
+form {
+
+}
+

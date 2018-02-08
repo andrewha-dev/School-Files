@@ -1,0 +1,97 @@
+.header {
+    text-align: center;
+    padding: 1em;
+    background-color: #497F37;
+    border-radius: 25px;
+    color: #CCFFBB;
+
+    font-family: Tahoma, Geneva, sans-serif;
+}
+body {
+    background-color: #005A04;
+}
+#formDiv {
+    background-color: #497F37;
+    padding: 1em;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.postPOSTDiv {
+    background-color: #497F37;
+    padding: 1em;
+    border-radius: 25px;
+    text-align: center;
+    color: #ccffbb;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#formDiv p {
+
+    text-align: center;
+}
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ccffbb;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: right;
+    width: 13em;
+    display: inline-block;
+}
+p input {
+    margin-left: 1em;
+    height: 2em;
+    width:20em;
+
+}
+p select {
+    margin-left: 1em;
+    height: 2em;
+    width:20em;
+}
+
+.errorsDiv {
+    color: #B22222;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #497F37;
+    border-radius: 25px;
+    margin-bottom: 1%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.noErrors {
+    display: none;
+}
+
+.errorsDivP {
+    font-size: .8em !important;
+}
+
+.errorsDiv li {
+    font-size: .8em !important;
+}
+
+.inputError {
+    background-color: #FF6347;
+    border: solid .25em #B22222;
+
+}
+.continue {
+
+}
+
+.continue:hover {
+    color:  #ccffbb;
+}
+#update {
+    width: 100px!important;
+    margin-left: 10%;
+}
+
+

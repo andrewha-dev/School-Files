@@ -1,0 +1,144 @@
+{
+    "person": [
+        {
+            "-id": "58",
+            "lastName": "Haley",
+            "firstName": "Maxwell",
+            "age": "21",
+            "curList": "N",
+            "city": "Ottawa",
+            "details": "Uses Linux",
+            "dateUpdated": "December 6, 2016, 11:59 am"
+        },
+        {
+            "-id": "59",
+            "lastName": "Ha",
+            "firstName": "Andrew",
+            "age": "19",
+            "curList": "U",
+            "city": "Vancouver",
+            "details": "Model Of Perfection",
+            "dateUpdated": "December 5, 2016, 6:23 pm"
+        },
+        {
+            "-id": "60",
+            "lastName": "Jackson",
+            "firstName": "Michael",
+            "age": "43",
+            "curList": "L",
+            "city": "Las Vegas",
+            "details": "King Of Pop",
+            "dateUpdated": "December 6, 2016, 12:19 pm"
+        },
+        {
+            "-id": "61",
+            "lastName": "Do more isk",
+            "firstName": "Phillip",
+            "age": "18",
+            "curList": "U",
+            "city": "Gatineau",
+            "details": "Wants a 256 Kingston SSD",
+            "dateUpdated": "December 6, 2016, 5:32 pm"
+        },
+        {
+            "-id": "62",
+            "lastName": "Washruum",
+            "firstName": "Ladis",
+            "age": "51",
+            "curList": "N",
+            "city": "Gatineau",
+            "details": "Named himself after ladies washroom",
+            "dateUpdated": "December 6, 2016, 1:50 pm"
+        },
+        {
+            "-id": "63",
+            "lastName": "Lafleur",
+            "firstName": "Big Ben",
+            "age": "18",
+            "curList": "G",
+            "city": "Gatineau",
+            "details": "Has all the swag",
+            "dateUpdated": "December 6, 2016, 7:32 pm"
+        },
+        {
+            "-id": "64",
+            "lastName": "Berube",
+            "firstName": "Cody",
+            "age": "23",
+            "curList": "G",
+            "city": "Luskville",
+            "details": "Name isnt spelled with an 'E'",
+            "dateUpdated": "December 6, 2016, 1:54 pm"
+        },
+        {
+            "-id": "65",
+            "lastName": "Marcoux",
+            "firstName": "Coady ",
+            "age": "28",
+            "curList": "G",
+            "city": "Gatineau",
+            "details": "Wants the world for christmas",
+            "dateUpdated": "December 6, 2016, 5:31 pm"
+        },
+        {
+            "-id": "66",
+            "lastName": "Snow",
+            "firstName": "Jon",
+            "age": "25",
+            "curList": "G",
+            "city": "Winterfell",
+            "details": "Wants winter to end",
+            "dateUpdated": "December 6, 2016, 7:48 pm"
+        },
+        {
+            "-id": "67",
+            "lastName": "imumOccupancy120",
+            "firstName": "Max",
+            "age": "23",
+            "curList": "U",
+            "city": "New York",
+            "details": "Using a made up name",
+            "dateUpdated": "December 6, 2016, 7:49 pm"
+        },
+        {
+            "-id": "68",
+            "lastName": "Aladeen",
+            "firstName": "Aladeen",
+            "age": "27",
+            "curList": "L",
+            "city": "Alladeen",
+            "details": "He is Aladeen for Aladeen",
+            "dateUpdated": "December 6, 2016, 7:50 pm"
+        },
+        {
+            "-id": "69",
+            "lastName": "Ler Et",
+            "firstName": "Mar-tin",
+            "age": "29",
+            "curList": "G",
+            "city": "Ottawa",
+            "details": "Hes one cool cat",
+            "dateUpdated": "December 7, 2016, 2:25 pm"
+        },
+        {
+            "-id": "70",
+            "lastName": "Archer",
+            "firstName": "Sterling",
+            "age": "28",
+            "curList": "U",
+            "city": "New York",
+            "details": "Best super secret agent",
+            "dateUpdated": "December 7, 2016, 2:27 pm"
+        },
+        {
+            "-id": "71",
+            "lastName": "Y...I'm not gonna even try ",
+            "firstName": "Amir",
+            "age": "21",
+            "curList": "G",
+            "city": "Montreal",
+            "details": "Tries at every assignment",
+            "dateUpdated": "December 7, 2016, 6:17 pm"
+        }
+    ]
+}

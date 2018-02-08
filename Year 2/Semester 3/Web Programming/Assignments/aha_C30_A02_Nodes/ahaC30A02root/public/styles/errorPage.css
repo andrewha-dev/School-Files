@@ -1,0 +1,14 @@
+body {
+    background-color: #3f6eb3;
+}
+.errorCode {
+    text-align: center;
+    font-weight: bold;
+    color: #1f3759;
+    font-size: 8em;
+}
+.message {
+    text-align: center;
+    color: #1f3759;
+    font-size: 3em;
+}

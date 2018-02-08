@@ -1,0 +1,11 @@
+{
+  "name": "aha_C30_A04_Final_Node",
+  "version": "1.0.0",
+  "description": "This is the JS File that runs node",
+  "main": "server.js",
+  "repository": "",
+  "author": "Andrew Ha",
+  "dependencies": {
+    "request": "*"
+  }
+}
