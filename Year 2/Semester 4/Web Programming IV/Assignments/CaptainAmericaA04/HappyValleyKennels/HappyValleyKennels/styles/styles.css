@@ -1,0 +1,873 @@
+﻿@media all and (min-width: 1400px) {
+    .makeReservationBtn {
+        margin-left: 10%;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        padding: .3em;
+        border-color: #06517F;
+        border-style: solid;
+        border-width: .3em;
+        border-radius: 10%;
+    }
+     .formFields {
+         
+     }
+    
+
+
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #C8C8C8;
+    background-image: url(../images/xv.png);
+
+}
+
+.topHeader {
+    background-color: #1485CC;
+    position: relative;
+    top: -3em;
+    width: 100%;
+    height: 6em;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #C8C8C8;
+}
+
+.topHeader p {
+    margin-left: 2.5em;
+    color: white;
+    position: relative;
+    top: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.divNav {
+    background-color: #55A3D4;
+    color: #AF6D47;
+    padding: .3em;
+    font-weight: bold;
+   
+    
+    
+    
+    margin-top: 3%;
+    font-family: sans-serif;
+
+}
+
+
+
+.makeReservationDiv {
+   margin-left: 30%;
+   margin-bottom: 1%;
+}
+
+.makeReservationBtn {
+    margin-left: 19%;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: .1em;
+    border-color: #06517F;
+    border-style: solid;
+    border-width: .3em;
+    font-size: 1em;
+}
+
+
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navList  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: .5em;
+    
+    
+}
+
+.navList a:hover {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: #557ABD;
+    
+}
+
+.divContent {    
+    
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: 2.5em;
+    
+}
+
+.divForm {
+    background-color: #f0f0f0;
+    padding: 1em;
+    
+    
+}
+
+.profilePicImage {
+    margin-left: 19.5em;
+}
+
+.profileDiv {
+    padding: 1em;    
+}
+
+.formFields input {
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.formFields textarea {
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    width: 17.5em;
+}
+
+
+
+.formFields p .formLabel{
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 34%;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.formFields div div span.formLabel{
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 34%;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.inline span {
+     float: left;
+    display: block;
+    font-weight: bold;
+    width: 34%;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.validators {
+    clear: left !important;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    bottom: 1em;
+    width: 1em!important;
+    
+}
+
+
+
+.inline {
+    display: inline;
+}
+
+
+#formContent_txtEmail {
+    width: 18em;
+}
+
+#formContent_txtPostalCode {
+    width: 5em;
+}
+
+#formContent_txtStreet {
+    width: 18em;
+}
+
+.formFields p select {
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+#editNumberLink {
+    font-family: sans-serif;
+}
+
+#emerEditNumberLink {
+    font-family: sans-serif;
+}
+
+#formContent_btnUpdate {
+    padding: .7em;
+    margin-top: 1em;
+    margin-left: 60%;
+}
+
+#formContent_userNavRight {
+    float: left;
+    background-color: white;
+    width: 17%;   
+    margin-left: .5em;
+    margin-top: 3em;
+    background-color: #1485CC;
+    
+}
+
+#logOut {
+    position: relative;
+    left: 70%;
+    bottom: 3em;
+    padding: 1em;
+    border-radius: 25%;
+    background-color: lightblue;
+    border-color: white;
+}
+
+#signIn {
+    position: relative;
+    left: 70%;
+    bottom: 3em;
+    padding: 1em;
+    border-radius: 25%;
+    background-color: lightblue;
+    border-color: white;
+}
+
+
+#editNumberLink {
+    margin-right: 2%;
+}
+
+.rightNav {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: sans-serif;
+    
+}
+
+#formContent_lblUserInfoPlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#formContent_lblCustomerPets {
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#formContent_lblProfilePicPlaceholder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#formContent_lblEmerContactPlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#formContent_lblVaccinePlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+.editProfile {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.petNameLabel {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.genderButtons {
+    font-size: 1em;
+}
+
+.maleButton {
+    font-family: sans-serif;    
+    font-weight: bold;
+}
+
+.fixedPara {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+table {
+    display: inline-table
+}
+
+.inline checkbox {
+    font-family: sans-serif;
+}
+
+.inline label{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#formContent_lblSelectedDateBordetella {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#formContent_txtNotes {
+    height: 10em;
+}
+
+#formContent_txtBordetella {
+    width: 15%;
+}
+
+#formContent_txtHepatitis {
+    width: 15%;
+}
+
+#formContent_txtDistemper {
+    width: 15%;
+}
+
+#formContent_txtParavirus {
+    width: 15%;
+}
+
+#formContent_txtRabies {
+    width: 15%;
+}
+
+#formContent_txtParainfluenza {
+    width: 15%;
+}
+
+#formContent_btnEdit {
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 60%;
+}
+
+.secondHeader {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    margin-left: 1%;
+}
+
+.listOfPets {
+    border: .15em solid black;
+}
+
+.petEntry {
+    padding: 1em;
+}
+
+.checkBoxText {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 2em;
+    margin-left: 2em;
+}
+
+.editPetInfoLink {
+    float: right;
+    margin-top: 2em;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    
+}
+.editPetInfoLink:hover {
+    color: blue;
+}
+
+.addPetLink {
+    float: right;
+    margin-right: 1em;
+    font-family: sans-serif;
+    font-size: 1.25em;    
+}
+
+.medicationDiv {
+    float: right;
+    font-family: sans-serif;
+    margin-right: 10%;
+}
+
+.medicationDiv input {
+    margin-top: .3em;
+}
+
+#formContent_valMed {
+    display: inline;
+}
+
+#formContent_valDosage {
+    display: inline;
+}
+
+.medicationDiv span {
+    display: inline-block;
+    width: 10em;
+    text-align:right;
+    font-weight: bold;
+    
+}
+
+.servicesDiv {
+    float: left;
+    margin-left: 10%;
+    width: 37%;
+}
+
+.extraFieldDiv {
+    clear: left;
+}
+
+.petHeader {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    margin-left: 1%;
+    width: 20%;
+    text-align: right;
+}
+
+.serviceHeaders {
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left:5%;
+}
+
+.daysForReserve span {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.serviceCheckboxes {
+    font-family: sans-serif;
+    margin-left: 40%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#formContent_lblStart {
+    margin-left: 9%
+}
+
+#formContent_lblEndDate {
+    margin-left: 5em;
+}
+
+.extraFieldDiv {
+    margin-left: 20%;
+    margin-top: 11%;
+}
+
+.extraFieldRun {
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: -3.5em;
+}
+
+#formContent_ddlShare {
+    width: 5em;
+
+}
+
+.inlineLabel {
+    display: inline-block;
+    font-size: 1.2em!important;
+    margin-left: 0;
+    position: relative;
+    right: 14em;
+    top: 2.2em;
+  
+}
+
+#formContent_ddlShare {
+    margin-left: 1em;
+}
+
+#formContent_lblNotesReservation {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: .9em;
+}
+
+#formContent_btnSubmitReservation {
+    margin-left: 60%;
+    padding: 1em;
+}
+
+#formContent_lblEmployeePlaceholder {
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#formContent_removeAccount a {
+    margin-left: 40%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#formContent_cancelChange {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#formContent_btnEditCus {
+    margin-left: 73%;
+    margin-bottom: 10%;
+}
+
+#formContent_lblVetPlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+
+
+#formContent_ddlShare {
+    display: inline-block;
+    width: 12em;
+}
+
+#formContent_lblUpcomingReservation {
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.upcomingReservationPet {
+    padding: 1em;
+    border: .15em solid black;
+}
+
+.viewUpcomingReservation {
+    float: right;
+}
+
+
+#formContent_lblPetsFromOwner {
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.petsFromOwnerBlock {
+    padding: 1em;
+    min-height: 5em;
+}
+
+.petsBlockPic {
+    display: block;
+    float: left;
+}
+
+.petsBlockInfo {
+    float: left;
+}
+
+#formContent_lblBlockPetName {
+    display: inline-block;
+    font-family: sans-serif;
+    margin-left: .3em;
+    width: 4em;
+    text-align: right;
+}
+
+#formContent_lblBlockPetNameGen {
+    font-family: sans-serif;
+}
+
+#formContent_lblBlockPetGender {
+    display: inline-block;
+    font-family: sans-serif;
+    margin-left: .3em;
+    width: 4em;
+    text-align: right;
+}
+
+#formContent_lblBlockPetGenderGen {
+    font-family: sans-serif;
+}
+
+.petsFromOwnerBlockEntry {
+    padding-top: 2%;
+    padding-bottom: 11%;
+    padding-left: 3%;
+    border: .2em solid black;
+    width: 30%;
+}
+
+.blockEditInfo {
+    display: block;
+    position: relative;
+    bottom: 0;
+    clear: left;
+    float: right;
+    margin-right: .3em;
+}
+
+#formContent_lblEndingReservation {
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: .5em;
+    margin-top: 1em;    
+}
+
+.reserveStart {
+    display: inline-block;
+    margin-left: 3em;
+    font-family: sans-serif;
+}
+
+.reserveEnd {
+    display: inline-block;
+    margin-left: 3em;
+    font-family: sans-serif;
+}
+
+.reserveName {
+    font-family: sans-serif;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+.loginHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.3em;
+    font-family: sans-serif;
+}
+
+.loginDiv {
+    width: 50%;
+    background-color: rgba(255,255,255,0.8);
+    border: .2em solid #373737;
+    position: relative;
+    left: 20%;
+}
+
+#btnCustomer {
+    display: inline-block;
+    padding: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    
+}
+
+#btnEmployee {
+    display: inline-block;
+    padding: 1em;
+    float: right;
+    margin-right: 1em;
+    font-size: 1em;    
+}
+
+#formContent_rdoPetSize {
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#formContent_lblPetFood {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 11%;
+}
+
+#formContent_lblVaccines {
+    margin-left: 1%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#formContent_lnkEditPet {
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 40%;
+}
+
+
+.vet {
+    font-family: sans-serif;
+}
+.reserveVaccinations {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: .9em;
+    margin-left: 6%;
+}
+
+#formContent_lblPetReserveVaccines {
+    position: absolute;
+    left: 19%;
+}
+
+#formContent_valSummaryCus {
+    font-family: sans-serif;
+    
+}
+
+#formContent_valSummary {
+    font-family: sans-serif;
+    
+}
+#formContent_valSumRes{
+    font-family: sans-serif;
+    
+}
+
+#lblUserLogin {
+    display : inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 20%;
+    margin-bottom: .3em;
+    margin-left: 20%;
+    text-align: right;
+    
+}
+
+#lblPasswordLogin {
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 20%;
+    margin-left: 20%;
+    text-align: right;
+    display : inline-block;
+}
+
+#btnLogin {
+    padding: .4em 1.8em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 41%;
+
+}
+
+#lblError {
+    font-weight: bold;
+    color:  red;
+    font-family :sans-serif;
+    margin-left: 20%;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+#formContent_userNameCustomer{
+    font-family: sans-serif;
+}
+
+#formContent_ddlListCustomer {
+    display : block;
+    width: 25em;
+    
+    margin-left: 30%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#formContent_btnCreate {
+    padding: .7em;
+    margin-top: 1em;
+    margin-left: 60%;
+}
+
+.messageSuccess{
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 2% 3%;
+    border-color: black;
+    border: solid 2px;
+    margin-bottom: 3%;
+   
+}
+
+.messageFailed {
+    background-color: lightcoral;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 2% 3%;
+    border-color: black;
+    border: solid 2px;
+    margin-bottom: 3%;
+}

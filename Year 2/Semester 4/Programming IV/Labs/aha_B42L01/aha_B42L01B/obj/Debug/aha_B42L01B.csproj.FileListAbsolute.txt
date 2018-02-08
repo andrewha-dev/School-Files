@@ -1,0 +1,13 @@
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\bin\Debug\aha_B42L01B.exe.config
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\bin\Debug\aha_B42L01B.exe
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\bin\Debug\aha_B42L01B.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\Events.g.cs
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\App.g.cs
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B_MarkupCompile.cache
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B_MarkupCompile.lref
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\Events.baml
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B.g.resources
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B.Properties.Resources.resources
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B.csproj.GenerateResource.Cache
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B.exe
+H:\4th Semester\420-B42\Labs\aha_B42L01\aha_B42L01B\obj\Debug\aha_B42L01B.pdb

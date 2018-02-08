@@ -1,0 +1,42 @@
+﻿#resselect {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.petEntry {
+    width: 45%;
+    text-align: right;
+    float: left;
+}
+
+#petResServTable {
+    float: right;
+    width: 45%;
+    display: block;
+    text-align: left;
+}
+
+#listOfPets {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    display: block;
+}
+
+#divResStart {
+    width: 45%;
+    float: left;
+    display: block;
+    text-align: right;
+}
+
+#divResEnd {
+    width: 45%;
+    float: right;
+    display: block;
+    text-align: left;
+}
+

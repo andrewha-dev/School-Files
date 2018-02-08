@@ -1,0 +1,70 @@
+﻿.imageSize {
+    width: 150px;
+    height: 65px;
+}
+
+body {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#ddlInvest {
+    width: 12em;
+}
+
+#txtInterest {
+    width: 12em;
+}
+
+#txtYears {
+    width: 12em;
+}
+
+#lblFuture {
+    width: 12em;
+}
+
+#btnClear {
+    width: 7em;
+}
+
+#btnCalc {
+    width: 7em;
+}
+
+.calendarAlign {
+    display: inline;
+}
+
+table {
+    width: 50%;
+}
+
+.table-style {
+    width: 50%;
+    border-color: black;
+}
+
+.table-style-other {
+    height: 23px;
+    border-color: black;
+}
+
+table {
+    border-width: thick;
+    border-style: solid;
+    background-color: gold;
+}
+
+tbody {
+    border-color: black;
+}
+
+td {
+    border: 2px solid black;
+}

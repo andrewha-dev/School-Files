@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aha_HVK", "aha_HVK.csproj", "{ECB6B33A-6EFE-4C8C-8593-CDC44EB55933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aha_HVKTestCase", "aha_HVKTestCase\aha_HVKTestCase\aha_HVKTestCase.csproj", "{A9392851-7125-41FA-A387-D4BF21B252AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB6B33A-6EFE-4C8C-8593-CDC44EB55933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB6B33A-6EFE-4C8C-8593-CDC44EB55933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB6B33A-6EFE-4C8C-8593-CDC44EB55933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB6B33A-6EFE-4C8C-8593-CDC44EB55933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9392851-7125-41FA-A387-D4BF21B252AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9392851-7125-41FA-A387-D4BF21B252AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9392851-7125-41FA-A387-D4BF21B252AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9392851-7125-41FA-A387-D4BF21B252AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

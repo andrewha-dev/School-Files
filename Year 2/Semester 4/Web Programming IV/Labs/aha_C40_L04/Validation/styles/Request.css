@@ -1,0 +1,29 @@
+﻿#arrival_date
+{
+    margin-right: 5px;
+    float: left;
+}
+#requests
+{
+    width: 120px;
+    float: left;
+}
+#buttons
+{
+    margin-top: 15px;
+    clear: left;
+}
+#message
+{
+    color: #0000FF;
+    margin-top: 15px;
+}
+.clear
+{
+    clear: left;
+}
+.contact
+{
+    width: 50px;
+    float: left;
+}

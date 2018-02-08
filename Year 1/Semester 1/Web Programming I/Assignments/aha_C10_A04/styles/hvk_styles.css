@@ -1,0 +1,271 @@
+body {
+	background-color: #D3A46E
+}
+#banner {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #AEB05D;
+	font-size: 1.5em;
+	height: 6%;
+	border: .1em solid #FFF;
+	overflow: hidden;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	text-align: center;
+}
+#websiteLibrary {
+	margin-left: 5%;
+	margin-bottom: 0.5%;
+	font-size: 0.5em;
+}
+#validatorlogo {
+	display: inline;
+	float: right;
+}
+#BannerText {
+	position: relative;
+	clear: none;
+	z-index: 3;
+	width: 50%;
+	padding: 0em;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#hvklogo {
+	float: left;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	margin-top: 1%;
+}
+#divnav {
+	background-color: #AEB05D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 0.1em;
+	padding-right: 0em;
+	padding-bottom: 0.1em;
+	padding-left: 0em;
+	width: 65%;
+	border: .1em solid #FFF;
+	left: 15%;
+	clear: left;
+	position: relative;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+#FooterNav {
+	background-color: #AEB05D;
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	text-align: center;
+	color: #FFF;
+	border: .1em solid #FFF;
+	position: relative;
+}
+#content {
+	background-color: #FEFFD3;
+	border: 0.2em solid #AEB05D;
+	margin: 1%;
+	overflow: auto;
+}
+#FooterCopyright {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+.divnav ul {
+	list-style-type: none;
+}
+#divnav a {
+	text-decoration: none;
+	padding-right: 10px;
+	color: #ffffff;
+}
+#divnav li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#divnav a:hover {
+	color: #DCD191;
+}
+#FooterNav a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	word-spacing: 10em;
+	margin: auto;
+	text-align: center;
+}
+#FooterNav li {
+	position: relative;
+	top: 5%;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline;
+	text-decoration: none;
+	clear: both;
+}
+#FooterNav a:hover {
+	color: #7F7F6A;
+}
+#wrapper {
+	width: 90%;
+	margin: auto;
+	background-color: #7F7F6A;
+}
+.notMobile {
+	display: none !important;
+}
+#contentText {
+	overflow: hidden;
+	width: 95%;
+}
+#content #contentText p {
+	width: 95%;
+}
+.contentTitle {
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-decoration: underline;
+}
+#content #contentText ul {
+	width: 75%;
+	list-style-image: url(../images/cartoon-dog-character1.gif);
+	text-decoration: none;
+}
+div #contentText #contentInformation {
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	white-space: normal;
+	margin-bottom: 1em;
+}
+#contentText a:hover {
+	color: #D31B1E;
+}
+#tableContact {
+	margin: auto;
+	text-align: left;
+}
+table, th, td {
+	border: 0.07em solid black;
+	border-collapse: collapse;
+	margin: auto;
+	text-align: center;
+}
+.tableRates {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+#contentText #contentInformation .tableRates caption {
+	font-weight: bolder;
+}
+#center {
+	margin-left: 5%;
+}
+.notMobileLogo {
+	display: none;
+}
+.tableHours {
+	margin: auto;
+}
+.contentlink {
+	text-decoration: underline;
+	font-style: normal;
+}
+#content a {
+	color: #000000;
+}
+#imageright {
+	float: right;
+	/* [disabled]clear: both;
+*/
+}
+#imageleft {
+	float: left !important;
+	margin-bottom: 1em;
+}
+#tableStaff {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin: auto;
+	border-width: 0.15em;
+	text-align: left;
+	width: 65%;
+}
+.testimonialshvkbold {
+	font-weight: bold;
+	font-style: normal;
+}
+.testimonialsText {
+	font-style: italic;
+}
+.textlabel {
+	margin-right: 10px;
+	float: left;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: right;
+	width: 140px;
+}
+.fieldlegend {
+	font-size: 1em;
+	font-weight: bold;
+}
+.button {
+	margin-left: 50%;
+}
+#contentInformation form fieldset {
+	border-radius: .7em;
+	border-color: #000000;
+}
+#tableStaff tr td {
+	border-width: 0.15em;
+	padding: 1%;
+	text-align: left;
+}
+#tableContact tr td {
+	text-align: left;
+	border-width: 0.125em;
+	border-color: #FEFFD3;
+}
+.tableBold {
+	font-weight: bold;
+	text-align: center;
+}
+#video {
+	margin: auto;
+	width: 40.4%;
+}
+
+@media all and (min-width: 800px) {
+.notMobile {
+	display: inline !important;
+}
+.notMobileLogo {
+	display: none;
+}
+#wrapper #content img {
+	margin-right: 2em;
+	margin-left: 1em;
+	float: right;
+	margin-top: 2em;
+}
+}
+
+@media all and (min-width: 1370px){
+.notMobileLogo {
+	display:block !important;
+}
+#bannerText {
+padding: .7em;	
+}
+
+}

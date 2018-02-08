@@ -1,0 +1,35 @@
+﻿<Window x:Class="aha_B42L05.GetOwnerLast"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aha_B42L05"
+        mc:Ignorable="d"
+        Title="GetOwnerLast" Height="300" Width="530.343" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:dsOwner x:Key="dsOwner"/>
+        <CollectionViewSource x:Key="hVK_OWNERViewSource" Source="{Binding HVK_OWNER, Source={StaticResource dsOwner}}"/>
+    </Window.Resources>
+    <Grid Background="#FFCD1E1E" DataContext="{StaticResource hVK_OWNERViewSource}">
+        <TextBox x:Name="txtLastPrompt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="147,20,0,0"/>
+        <Label x:Name="lblLastName" Content="Last Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,17,0,0"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="147,55,0,0" Click="btnSearch_Click"/>
+        <DataGrid x:Name="hVK_OWNERDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="10,90,26,11" RowDetailsVisibilityMode="VisibleWhenSelected" RenderTransformOrigin="0.5,0.5">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.674"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="1.176"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="oWNER_FIRST_NAMEColumn" Binding="{Binding OWNER_FIRST_NAME}" Header="First Name" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_LAST_NAMEColumn" Binding="{Binding OWNER_LAST_NAME}" Header="Last Name" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_PHONEColumn" Binding="{Binding OWNER_PHONE}" Header="Phone" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_EMAILColumn" Binding="{Binding OWNER_EMAIL}" Header="Email" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

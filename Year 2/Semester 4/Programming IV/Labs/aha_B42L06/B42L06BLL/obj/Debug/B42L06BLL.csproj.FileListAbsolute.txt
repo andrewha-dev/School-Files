@@ -1,0 +1,8 @@
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\bin\Debug\B42L06BLL.dll
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\bin\Debug\B42L06BLL.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\bin\Debug\B42L06DB.dll
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\bin\Debug\Oracle.ManagedDataAccess.dll
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\bin\Debug\B42L06DB.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\obj\Debug\B42L06BLL.csprojResolveAssemblyReference.cache
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\obj\Debug\B42L06BLL.dll
+H:\4th Semester\420-B42\Labs\aha_B42L06\B42L06BLL\obj\Debug\B42L06BLL.pdb

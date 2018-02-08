@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="description" content="Happy Valley Kennel provides high-quality, personalized cat and dog boarding, pet grooming and playtime.  Located on a beautiful 25 acre natural setting in the heart of the Chelsea, just 15 minutes from Ottawa, Happy Valley Kennel is a family run business, owned and operated by Jim and Sally Read. "/>
+<meta name="keywords" content="Happy Valley Kennel dog kennel Ottawa Gatineau cat canine feline board"/>
+<meta name="robots" content="index, follow"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Hours</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/hvk_styles.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../images/hvk_myI_icon.ico"/>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="banner"><a class = "notMobileLogo" href="../index.html"><img src="../images/hvk.png" alt="HappyValleyLogo" width="93" height="159" class="hvklogo" id="hvklogo"></a>
+    <div>
+      <h1 id="BannerText"> Happy Valley Kennel</h1>
+      <div class="notMobileLogo"> <!-- #BeginLibraryItem "/Library/HVK domain.lbi" -->
+        <p id="websiteLibrary">http://www.happyvalleykennels.ca</p>
+        <!-- #EndLibraryItem --></div>
+    </div>
+  </div>
+  <div id="divnav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../hours.html">Hours</a></li>
+      <li><a href="../rates.html">Rates</a></li>
+      <li class = "notMobile"><a href="../staff.html">Staff</a></li>
+      <li class = "notMobile"><a href="../testimonials.html">Testimonials</a></li>
+      <li class = "notMobile"><a href="../inquiries.html">Inquiries</a></li>
+      <li class = "notMobile"><a href="../links.html">Links</a></li>
+      <li class = "notMobile"><a href="../contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div id ="content">
+    <div id="contentText">
+      <h1 class="contentTitle" ><!-- TemplateBeginEditable name="Heading" -->Insert Page Title Name Here<!-- TemplateEndEditable --></h1>
+      <!-- TemplateBeginEditable name="TextContent" -->
+      <div id ="contentInformation">
+        <p>Any Text Here</p>
+      </div>
+      <!-- TemplateEndEditable --></div>
+  </div>
+  <div id="FooterNav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../hours.html">Hours</a></li>
+      <li><a href="../rates.html">Rates</a></li>
+      <li><a href="../staff.html">Staff</a></li>
+      <li><a href="../testimonials.html">Testimonials</a></li>
+      <li><a href="../inquiries.html">Inquiries</a></li>
+      <li><a href="../links.html">Links</a></li>
+      <li><a href="../contact.html">Contact</a><br>
+      </li>
+      <li><span id ="FooterCopyright"><!-- #BeginLibraryItem "/Library/Copyright.lbi" -->&copy; Happy Valley Kennel. All Rights Reserved.<!-- #EndLibraryItem --></span> <span id="validatorlogo"> <a class="notMobileLogo" href="http://jigsaw.w3.org/css-validator/check/referer"> <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" /> </a></span></li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

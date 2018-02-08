@@ -1,0 +1,13 @@
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\bin\Debug\aha_B42_L04_B.exe.config
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\bin\Debug\aha_B42_L04_B.exe
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\bin\Debug\aha_B42_L04_B.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\Colours.g.cs
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\App.g.cs
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B_MarkupCompile.cache
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B_MarkupCompile.lref
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\Colours.baml
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B.g.resources
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B.Properties.Resources.resources
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B.csproj.GenerateResource.Cache
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B.exe
+H:\4th Semester\420-B42\Labs\aha_B42L04\aha_B42_L04_B\obj\Debug\aha_B42_L04_B.pdb

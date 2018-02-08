@@ -1,0 +1,36 @@
+﻿body {
+    font-family: sans-serif;
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.info {
+    background-color: lightgreen;
+}
+
+#lblStudentID {
+
+}
+
+tr td {
+    border: 3px, solid, black;
+}
+
+.table-style {
+    border: 3px, solid, black;
+}

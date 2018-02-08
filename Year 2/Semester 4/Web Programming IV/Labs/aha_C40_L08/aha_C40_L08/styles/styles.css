@@ -1,0 +1,11 @@
+﻿tr td {
+        width: 7em;
+    }
+
+#ListPicker_lstSelected {
+    float: left;
+}
+
+#ListPicker_btnAddAll {
+    margin-top: 1em;
+}

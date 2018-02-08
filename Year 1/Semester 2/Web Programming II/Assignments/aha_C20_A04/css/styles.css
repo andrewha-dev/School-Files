@@ -1,0 +1,564 @@
+@media all and (min-width: 480px){
+    .notMobile{
+       display:block !important; 
+       width: 100%;
+    }
+    
+    .headerLogo {
+        display:block !important;
+        height:130px;
+    }
+    .bingoGame {
+        margin-top: 1% !important;
+        
+    }
+    html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    height: auto !important;
+}
+    
+    
+}
+
+.centerAnimation {
+    position: absolute;
+    left: 11%;
+    background-color: #D90327;
+    width: 78.7%;
+    height: 931px;
+}
+
+@keyframes DoorOpenLeft {
+  0%   { transform: rotateY(0deg);}
+  100% { transform: rotateY(50deg);}
+  
+}
+
+@keyframes DoorOpenRight {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(-50deg); }
+}
+#numbersCanvas {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 1em;
+    border-color: #D4AF37;
+    border-style: solid;
+    border-width: .5em;
+}
+.inline {
+    displaY :inline;
+    padding: 5em;
+}
+
+
+#canvasCenter {
+    /*background-color: #D4AF37;*/
+    /*background-color: #001848;*/
+    background-color: black;
+    opacity: 1;
+    height: 100%;
+    position: absolute;
+    left: 39%;
+    z-index: 2;
+    width: 23%;
+    
+}
+td:hover {
+    background-color: grey;
+}
+
+#fireworkOne{
+    position: absolute;
+    left: 3.750%;
+    bottom: 57.2%;
+    z-index: 6;
+}
+
+#fireworkTwo
+{
+    position: absolute;
+    left: 34%;
+    bottom: 57.2%;
+    z-index: 6;   
+}
+
+#fireworkThree
+{
+    position: absolute;
+    left: 63.27%;
+    bottom: 57.2%;
+    z-index: 6;
+}
+
+#doorright {
+    position: absolute;
+    left: 52%;
+    transform: scaleX(-1);
+    animation: DoorOpenRight 4s 1;
+     transform: rotateY(50deg);
+     z-index: 4;
+}
+
+#doorleft {
+    position: absolute;
+    transform: scaleX(-1);
+    animation: DoorOpenLeft 4s 1;
+     transform: rotateY(-50deg);
+     z-index: 4;
+}
+#movingDragonLeft {
+    position: absolute;
+    left: -50%;
+    z-index: 3;
+}
+#movingDragonRight {
+    position: absolute;
+    left: 115%;
+    z-index: 3;
+    transform: scaleX(-1);
+}
+
+body {
+    background-color: #D3D3D3;
+    /*background-image:url("../images/background-3.jpg");*/
+    
+}
+
+.wrapper {
+   
+    width:100%;
+    margin:auto;
+}
+
+.center { 
+    position: absolute;
+    left: 45%;
+    right: auto;
+}
+
+.logo{
+    position: absolute;
+    left: 48%;
+    top: 10%;
+    border-radius:50%;
+    width: 64px;
+    height: auto;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+}
+
+.hamburger-styl { 
+    cursor:pointer;
+    margin: 20px;
+    width: 32px;
+    height: auto;
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+.spin{
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+
+
+.navbar-inverse {
+    width: 100%;
+    
+    border-color:#D4AF37;
+    border-width: .3em;
+}
+
+.lato{
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+.btnSignIn {
+    position: absolute;
+    
+    top: 1.3em;
+    
+    left: 75%;
+    
+    
+    color: #ff6600;
+    background-color: #404040;
+    
+    text-decoration: none;
+    
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+    
+    width: 100px;
+}
+
+.btnSignIn:hover{ 
+    color: #e65c00;   
+    background-color: #1a1a1a;
+}
+
+.panel{
+    width: 85%;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top:1em;
+    border-color:#D4AF37;
+    border-width: .3em;
+    height: 125em;
+}
+
+.game {
+    margin-top: 0%;
+}
+
+    
+
+.footerTradeMark{
+    margin-left:50%;
+    margin-right:auto;
+    background-color: #A50000;
+    background-size: contain;
+    color: gold;
+}
+
+
+.headerLogo {
+    position: relative;
+    text-align: center;
+    display:none;
+    
+    height:auto;
+}
+
+
+
+.navbar-fixed-bottom {
+    background-color: #A50000;
+    border-top-color: #D4AF37;
+    border-width:.3em;
+    border-right-color: #e50000;
+    border-left-color: #e50000;
+    border-bottom-color: #e50000;
+}
+
+.footer {
+     background-color: #A50000;
+    border-top-color: #D4AF37;
+    border-width:.3em;
+    border-right-color: #e50000;
+    border-left-color: #e50000;
+    border-bottom-color: #e50000;
+}
+.content {
+    height: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:-1%;
+    width: 100%;
+    background: rgba(165,0,0,1);
+    background: -moz-linear-gradient(top, rgba(165,0,0,1) 0%, rgba(165,0,0,1) 1%, rgba(231,56,39,1) 93%, rgba(241,111,92,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(165,0,0,1)), color-stop(1%, rgba(165,0,0,1)), color-stop(93%, rgba(231,56,39,1)), color-stop(100%, rgba(241,111,92,1)));
+    background: -webkit-linear-gradient(top, rgba(165,0,0,1) 0%, rgba(165,0,0,1) 1%, rgba(231,56,39,1) 93%, rgba(241,111,92,1) 100%);
+    background: -o-linear-gradient(top, rgba(165,0,0,1) 0%, rgba(165,0,0,1) 1%, rgba(231,56,39,1) 93%, rgba(241,111,92,1) 100%);
+    background: -ms-linear-gradient(top, rgba(165,0,0,1) 0%, rgba(165,0,0,1) 1%, rgba(231,56,39,1) 93%, rgba(241,111,92,1) 100%);
+    background: linear-gradient(to bottom, rgba(165,0,0,1) 0%, rgba(165,0,0,1) 1%, rgba(231,56,39,1) 93%, rgba(241,111,92,1) 100%);
+    opacity: 71;
+}
+
+.innerContent {
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    position: absolute;
+    top: -3%;
+    width: 85%;
+    background-color: white;
+    opacity: 1;
+    
+}
+
+.notMobile{
+    display: none;
+}
+
+.dropdown-menu1  {
+    width: 15%;
+    background-color: #A50000;
+    border-width: .15em;
+    border-color: #D4AF37 ;
+    color: yellow;
+    
+}
+
+.dropdown-menu11 li {
+    background-color: #A50000;
+    color: yellow;
+}
+.dropdown-menu1 li a 
+{    
+    
+    color: yellow;
+    font-weight: bolder;
+    background-color:#A50000;
+    
+    border-width: .15em;
+ 
+    height:7%;
+    opacity:1;
+}
+.dropdown-menu1 li a:hover{
+    color: #A50000;
+    background-color: #D4AF37;
+}
+
+.userInfo
+{
+    color: #D4AF37;
+    text-align: center;
+    background-color:Black;
+    padding: .5%;
+    border-width: .15em;
+    position: relative;
+    top:0em;
+    opacity:1;
+    
+}
+
+
+.divider {
+    border-color: #D4AF37;
+    background-color: #D4AF37;
+    
+}
+.numbersCalled {
+    position: relative;
+    top: 3%;
+    background-color: #A50000;
+    border-color:#D4AF37 ;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 1em;
+
+    
+    border-width: 1em;
+    margin-top: 3%;
+    padding: .5%;
+    
+}
+
+.enterBet {
+    position: relative;
+    top: 12%;
+    background-color: transparent;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+table {
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableOne {
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    
+}
+#tableTwo {
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    
+}
+#tableThree {
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+}
+
+.bingoGame {
+    margin-top: 50%;
+}
+.picker {
+    margin: auto;
+}
+#tableOne tr td  {
+    padding: 1em;
+    cursor: pointer;
+}
+#tableOne th {
+    padding: 1em;
+    text-align: center;
+}
+#tableTwo tr td  {
+    padding: 1em;
+    cursor: pointer;
+}
+#tableTwo th {
+    padding: 1em;
+    text-align: center;
+}
+#tableThree tr td  {
+    padding: 1em;
+    cursor: pointer;
+}
+#tableThree th {
+    padding: 1em;
+    text-align: center;
+}
+
+.enterForm{
+    width: 85%;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top:1em;
+    border-color:#D4AF37;
+    border-width: .3em;
+    height: 80em;
+    border-bottom-color: yellow;
+}
+.textlabel {
+    margin-right: 10px;
+    float: left;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    width: 100%;
+}
+.formCenter {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    margin: auto;
+    border-color: yellow;
+    border-width: 1em;
+}
+.container-fluid {
+    margin-left: 5%;
+}
+.userForm{
+    background-color: white;
+}
+.formCenter{
+    background-color: white;
+    padding: 5%;
+}
+.numberDisplay{
+    color: black;
+    background-color: yellow;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+    border-radius: 10px;
+    padding: .3em;
+    border-color:#D4AF37;
+}
+.bottom {
+    position: absolute;
+    top: 77%;
+    margin-top: 10%;
+    width: 100%;
+}
+.error {
+    display: block;
+    color: white;
+}
+
+.finalAmountDisplay {
+    color: #D4AF37;
+    font-weight: bold;
+}
+.userMisc {
+    position: relative;
+    margin-left: 85%;
+    margin-right: auto;
+}
+
+.userStorage {
+    width: 100%;
+    position: relative;
+    
+    clear: float;
+}
+.spanFloat {
+    clear: float;
+    float: left;
+}
+.inlineDisplay {
+    float: left;
+    width: 150px;
+    text-align: right;
+    clear: float;
+    font-weight: bold;
+}
+#combineName {
+    color: red;
+    text-decoration: none;
+}
+.reset {
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+}
+#combineName:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.betaP {
+    font-weight: bold;
+    color: gold;
+    text-decoration: none;
+    
+}
+
+.betaP a:hover {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    
+}
+.betaP:visited {
+    color: gold;
+    text-decoration: none;
+}
+
+.moneyDisplay {
+    font-weight: bold;
+}

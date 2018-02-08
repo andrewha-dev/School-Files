@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HVK_Manage.master.cs" Inherits="HappyValleyKennels.HVK_Manage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="topHeader">
+        <p>Happy Valley Kennels</p>
+        <form id="loginForm">                
+                <a href="./default.aspx" runat="server" OnServerClick="lnkLogOut_Click" id="logOut">Log Out</a>
+                 <a href="./default.aspx" runat="server" OnServerClick="lnkLogOut_Click" id="signIn">Sign-In</a>
+            
+        </form>
+    </div>
+
+    <div class="wrapper">
+
+        <asp:Panel ID="divNav" class="divNav" runat="server">
+            <!-- Div that contains the user's profile picture and the navigation menu -->
+            
+
+            <div class="makeReservationDiv">
+                <!-- Div for the button that takes you to the make reservation page -->
+                <a class="makeReservationBtn" href="manageReservation.aspx">Make A Reservation</a>
+            </div>
+
+            <div class="navMenu">
+                <!-- Div that contains the navigation menu -->
+                <div class="navList">
+                    <div id="customerNav" runat="server">
+                        <a href="home.aspx">Home</a>
+                        <a href="managePet.aspx">My Pets</a>
+                        <a href="manageReservation.aspx">My Reservations</a>
+                        <a href="manageCustomer.aspx">My Account</a>
+                    </div>
+                    <div id="employeeNav" runat="server">
+                        <a href="home.aspx">Home</a>
+                        <a href="manageReservation.aspx">Reservations</a>
+                        <a href="manageCustomer.aspx">Customers</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </asp:Panel>
+
+        <asp:ContentPlaceHolder ID="formContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

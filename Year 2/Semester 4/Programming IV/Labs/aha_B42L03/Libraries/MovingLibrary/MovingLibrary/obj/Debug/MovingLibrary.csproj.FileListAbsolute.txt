@@ -1,0 +1,10 @@
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\MovingLibrary\MovingLibrary\bin\Debug\MovingLibrary.dll
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\MovingLibrary\MovingLibrary\bin\Debug\MovingLibrary.pdb
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\MovingLibrary\MovingLibrary\obj\Debug\MovingLibrary.csprojResolveAssemblyReference.cache
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\MovingLibrary\MovingLibrary\obj\Debug\MovingLibrary.dll
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\MovingLibrary\MovingLibrary\obj\Debug\MovingLibrary.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L03\MovingLibrary\MovingLibrary\bin\Debug\MovingLibrary.dll
+H:\4th Semester\420-B42\Labs\aha_B42L03\MovingLibrary\MovingLibrary\bin\Debug\MovingLibrary.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L03\MovingLibrary\MovingLibrary\obj\Debug\MovingLibrary.csprojResolveAssemblyReference.cache
+H:\4th Semester\420-B42\Labs\aha_B42L03\MovingLibrary\MovingLibrary\obj\Debug\MovingLibrary.dll
+H:\4th Semester\420-B42\Labs\aha_B42L03\MovingLibrary\MovingLibrary\obj\Debug\MovingLibrary.pdb

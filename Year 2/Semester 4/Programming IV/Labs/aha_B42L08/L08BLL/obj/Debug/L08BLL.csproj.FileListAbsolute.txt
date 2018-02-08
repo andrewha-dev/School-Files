@@ -1,0 +1,8 @@
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\bin\Debug\L08BLL.dll
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\bin\Debug\L08BLL.pdb
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\obj\Debug\L08BLL.dll
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\obj\Debug\L08BLL.pdb
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\bin\Debug\L08DB.dll
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\bin\Debug\Oracle.ManagedDataAccess.dll
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\bin\Debug\L08DB.pdb
+H:\4th Semester\420-B42\Labs\ahaB42L08\L08BLL\obj\Debug\L08BLL.csprojResolveAssemblyReference.cache

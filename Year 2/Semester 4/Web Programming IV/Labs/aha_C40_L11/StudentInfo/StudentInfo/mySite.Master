@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mySite.master.cs" Inherits="StudentInfo.mySite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="info">
+                <h1>Indo-Us College</h1>
+                <h2>Caring About Your Education</h2>
+                <footer>
+                    <p class="footer">To contact us, call us at 819-555-0400 or email us at survey@indoux.com</p>
+                </footer>
+            </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+       
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

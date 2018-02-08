@@ -1,0 +1,42 @@
+﻿<Window x:Class="aha_B42L05.OwnerPet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aha_B42L05"
+        mc:Ignorable="d"
+        Title="OwnerPet" Height="333" Width="1038.336" Background="#FFAE0000" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:dsOwnerPet x:Key="dsOwnerPet"/>
+        <local:SizeConverter x:Key="SizeConverter"/>
+        <CollectionViewSource x:Key="hVK_OWNER1ViewSource" Source="{Binding HVK_OWNER1, Source={StaticResource dsOwnerPet}}"/>
+        <CollectionViewSource x:Key="hVK_OWNER1HVK_PETViewSource" Source="{Binding PET_OWN_FK, Source={StaticResource hVK_OWNER1ViewSource}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource hVK_OWNER1ViewSource}">
+        <DataGrid x:Name="hVK_OWNER1DataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="42,10,554,93" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="oWNER_FIRST_NAMEColumn" Binding="{Binding OWNER_FIRST_NAME}" Header="First Name" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_LAST_NAMEColumn" Binding="{Binding OWNER_LAST_NAME}" Header="Last Name" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_PHONEColumn" Binding="{Binding OWNER_PHONE}" Header="Phone" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_EMAILColumn" Binding="{Binding OWNER_EMAIL}" Header="Email" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="hVK_PETDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource hVK_OWNER1HVK_PETViewSource}}" Margin="516,10,114,93" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="pET_NAMEColumn" Binding="{Binding PET_NAME}" Header="Pet name" Width="auto"/>
+                <DataGridTextColumn x:Name="pET_GENDERColumn" Binding="{Binding PET_GENDER}" Header="Pet Gender" Width="auto"/>
+                <DataGridTextColumn x:Name="pET_BREEDColumn" Binding="{Binding PET_BREED}" Header="Pet Breed" Width="auto"/>
+                <DataGridTemplateColumn Header="Pet Size" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock>
+                                <TextBlock x:Name="pSize" Text="{Binding DOG_SIZE, Converter={StaticResource SizeConverter}}"></TextBlock>
+                            </TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn x:Name="dOG_SIZEColumn" Binding="{Binding DOG_SIZE}" Header="Pet Size" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

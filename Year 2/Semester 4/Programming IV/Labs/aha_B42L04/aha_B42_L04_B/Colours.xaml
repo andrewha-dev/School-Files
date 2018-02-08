@@ -1,0 +1,50 @@
+﻿<Window x:Name="mnuCtx" x:Class="aha_B42_L04_B.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aha_B42_L04_B"
+        mc:Ignorable="d"
+        Title="Create Patterns" Height="350" Width="525" Background="#FFCD1515">
+    <Grid>
+        <Menu x:Name="mnuMain" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="517">
+            <MenuItem x:Name="mnuFirst" Header="_First Colour" StaysOpenOnClick="True" Checked="fillRect">
+                <MenuItem x:Name="mnuiBlue" Header="_Blue" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiBlue_Checked"/>
+                <MenuItem x:Name="mnuiRed" Header="_Red" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiRed_Checked"/>
+                <MenuItem x:Name="mnuiYellow" Header="_Yellow" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiYellow_Checked"/>
+                <Separator HorizontalAlignment="Left" Width="145"/>
+                <MenuItem x:Name="mnuiGrey" Header="_Grey" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiGrey_Checked"/>
+
+            </MenuItem>
+            <MenuItem x:Name="mnuiSecond" Header="_Second Colour" Checked="fillRect">
+                <MenuItem x:Name="mnuiGreen" Header="_Green" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiGreen_Checked"/>
+                <MenuItem x:Name="mnuiOrange" Header="_Orange" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiOrange_Checked"/>
+                <MenuItem x:Name="mnuiPurple" Header="_Purple" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Checked="mnuiPurple_Checked"/>
+                <Separator />
+                <MenuItem x:Name="mnuiBlack" Header="_Black" HorizontalAlignment="Left" Width="145" IsCheckable="True" StaysOpenOnClick="True" Click="mnuiBlack_Click"/>
+            </MenuItem>
+        </Menu>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="295" Margin="0,25,0,0" VerticalAlignment="Top" Width="517" Background="White">
+            <Rectangle x:Name="myRect" Fill="Black" Height="100" Canvas.Left="152" Stroke="Black" Canvas.Top="149"  Width="200"/>
+            <ToolBar x:Name="toolBar" Canvas.Left="37" Canvas.Top="30">
+                <Button x:Name="btnBlue" Content="" Height="22" VerticalAlignment="Top" Width="24" Background="#FF3785D3" ToolTip="Makes Rectangle Blue" Click="btnBlue_Click"/>
+                <Button x:Name="btnRed" Content="" VerticalAlignment="Stretch" Width="24" Background="#FFDE1C1C" ToolTip="Make rectangle red" Click="btnRed_Click"/>
+                <Button x:Name="btnGreen" Content="" Height="22" VerticalAlignment="Top" Width="24" Background="#FF038109" ToolTip="Make rectangle green" Click="btnGreen_Click"/>
+                <Button x:Name="btnGrey" Content="" Height="22" VerticalAlignment="Top" Width="23" Background="#FFA8A2A2" ToolTip="Makes rectangle grey" Click="btnGrey_Click"/>
+
+            </ToolBar>
+        </Canvas>
+
+    </Grid>
+    
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem x:Name="mnuiRectangle" Header="Rectangle" Click="mnuiRectangle_Click" />
+            <MenuItem x:Name="mnuiSquare" Header="Square" Click="mnuiSquare_Click" />
+            <Separator />
+            <MenuItem x:Name="mnuiCircle" Header="Circle" Click="mnuiCircle_Click" />
+            <MenuItem x:Name="mnuiEllipse" Header="Ellipse" Click="mnuiEllipse_Click" />
+        </ContextMenu>
+    </Window.ContextMenu>
+
+</Window>

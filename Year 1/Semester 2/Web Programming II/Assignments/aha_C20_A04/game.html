@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Eight Dragon Casino</title>
+        <!-- Imports -->
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css" type="text/css">
+        <link rel="stylesheet" href="./css/jquery-ui-game.theme.css" type="text/css">
+        <link rel="stylesheet" href="./css/jquery-ui-game.css" type="text/css">        
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"> </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        
+
+    
+    <body>
+        <div class="headerLogo">
+            <img class="notMobile img-responsive" src="./images/header.png" alt="header" width="1910" height ="125"/>
+	    </div>
+    	<div class="wrapper">
+    		<nav class="cas-nav navbar navbar-inverse">
+    				
+    			<div class = "container-fluid">
+    				<div class = "navbar-header">
+
+			            <img class="hamburger-styl dropdown-toggle" data-toggle="dropdown" src="./images/hamburger.png" alt="hamburger"/>
+				        <ul class="dropdown-menu dropdown-menu1">
+				            <li><a href = "#">Bingo</a></li>
+				            <li><a href = "#">Blackjack</a></li>
+				            <li><a href = "#">Poker</a></li>
+				            <li><a href = "#">Roulette</a></li>
+				            <li><a href = "#">Slots</a></li>
+				            
+				            <li class="divider"></li>
+				            <li><a href ="index.html">Animation</a></li>
+				            <li><a href = "./intro.html">Sign In</a></li>
+				        </ul>
+				        
+                        <a href = "game.html">
+                            <img class="logo center tilt" src="./images/logo.png" alt="logo"/>
+                        </a>                      
+                        
+                        <button id = "leave" class="notMobile btn lato btnSignIn">
+                            Leave!
+                        </button>
+                    </div>
+    			</div>
+    		</nav>
+    		
+    		<!--Game-->
+    		<div class="content">
+	    	    <div class="panel panel-default">
+  	                <div class="game">
+  	                    <div class="userInfo">
+  	                            <h4 class="headerCenter"> User Information</h4>
+      	                        <div class="userMisc">
+      	                            <div>
+          	                        <p class="reset"><span>Not :</span><a id="combineName" href="#"></a></p>
+          	                        </div>
+          	                        <div>
+          	                            <p class="betaP"><span data-placement="auto" data-toggle="tooltip" data-container="body" title="What is this?"><a id="betaDialogue" class="betaP" href="#">Test Mode : &nbsp;</a></span><span><input type="checkbox" id="toggletest" name="beta" value="check"></span></p>
+          	                        </div>
+      	                        </div>
+      	                        <div class='ui-dialog' id="dialog" title="Test Mode">
+                                <p>The purpose of this mode is to insure that the bingo game will not suffer any bugs for testing purposes.</p>   
+                                <p>This is done by refreshing the page everytime a game is completed, preventing any overlapping functions. Check the box to enter this mode.</p>
+                                </div>
+  	                        <div class ="userStorage">
+  	                                <p><span class="inlineDisplay">First Name: &nbsp;</span><span class="spanFloat" id = "firstNameInfo">?</span></p><br>
+  	                                <p><span class="inlineDisplay">Last Name: &nbsp;</span><span class="spanFloat" id = "lastNameInfo">?</span></p><br>
+  	                                <p><span class="inlineDisplay">Phone Number: &nbsp;</span><span class="spanFloat" id = "phoneNumberInfo">?</span></p><br>
+  	                                <p><span class="inlineDisplay">Postal Code: &nbsp;</span><span class="spanFloat" id = "postalCodeInfo">?</span></p><br>
+  	                                <div>
+  	                                <p><span class = "inlineDisplay">Last Visit: &nbsp;</span><span class="spanFloat" id = "lastVisit">?</span></p><br>
+  	                                <p class="moneyDisplay">Money Remaining: &nbsp; $<span id = "startingCashInfo">?</span></p>
+                                    <p class="moneyDisplay">Bet Amount : <br><input name="betAmount" type="text" required id="betAmount" placeholder="Bet Amount" size="20" maxlength="4"></p>
+                                    </div>
+                            </div>
+                        </div>
+  	                    
+  	                    <div class="numbersCalled">
+  	                        <p id="numbersMason" class="numbersCalled">Numbers Called: </p>
+
+  	                    </div>
+  	                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <canvas id="numbersCanvas" class="img-responsive"  width="1500" height="70">
+                                <p>It seems like your browser doesn't support the canvas element</p>
+                            </canvas>    
+                        </div>
+  	                    
+  	                    <div class = "enterBet">
+  	                        <button class="btn btn-danger dropdown-toggle picker" type="button" data-toggle="dropdown">Select Your Cards & PLAY !
+                              <span class="caret"></span></button>
+                                  <ul class="dropdown-menu">
+                                    <li id ="oneCards"><a href = "#" >One Card</a></li>
+                                    <li><a href = "#" id="twoCards" >Two Cards</a></li>
+                                    <li><a href="#" id="threeCards" >Three Cards</a></li>
+                                  </ul>
+  	                    </div>
+  	                    
+  	                    <div class = "bingoGame">
+  	                        <div class="container-fluid col-xs-12 col-sm-6 col-md-6 col-lg-4">
+  	                        <table id="tableOne" class="table-bordered">
+  	                            <tr>
+  	                                <th>
+  	                                    B
+  	                                </th>
+  	                                <th>
+  	                                    I
+  	                                </th>
+  	                                <th>
+  	                                    N
+  	                                </th>
+  	                                <th>
+  	                                    G
+  	                                </th>
+  	                                <th>
+  	                                    O
+  	                                </th>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                           
+  	                        </table>
+  	                        
+  	                        
+  	                        
+                            </div>
+                            
+                            <div class="container-fluid col-xs-12 col-sm-6 col-md-6 col-lg-4">
+  	                        <table id="tableTwo" class="table table-bordered">
+  	                            <tr>
+  	                                <th>
+  	                                    B
+  	                                </th>
+  	                                <th>
+  	                                    I
+  	                                </th>
+  	                                <th>
+  	                                    N
+  	                                </th>
+  	                                <th>
+  	                                    G
+  	                                </th>
+  	                                <th>
+  	                                    O
+  	                                </th>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                           
+  	                        </table>
+  	                        
+  	                        
+  	                        
+                            </div>
+                            <div class="container-fluid col-xs-12 col-sm-6 col-md-6 col-lg-4">
+  	                        <table id="tableThree" class="table table-bordered">
+  	                            <tr>
+  	                                <th>
+  	                                    B
+  	                                </th>
+  	                                <th>
+  	                                    I
+  	                                </th>
+  	                                <th>
+  	                                    N
+  	                                </th>
+  	                                <th>
+  	                                    G
+  	                                </th>
+  	                                <th>
+  	                                    O
+  	                                </th>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                            <tr>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                                <td>
+  	                                    ?
+  	                                </td>
+  	                            </tr>
+  	                           
+  	                        </table>
+  	                        
+  	                        
+  	                        
+                            </div>
+  	                    </div>
+		            </div>   
+		          
+	            </div>
+	            <p id = "id"></p>
+	            
+    	    </div>
+    		<!--Footer-->
+    		<footer class="navbar navbar-default footer">
+                <a class = "footerTradeMark" href="./game.html">The Eight Dragon Casino</a>
+                <p class="footerTradeMark">All Images Obtained From Google Images</p>
+    		</footer>
+		</div>
+		<script src="./js/game.js"></script>
+		 <script type="text/javascript" src="./js/jquery-ui.js"></script>
+    </body>
+</html>

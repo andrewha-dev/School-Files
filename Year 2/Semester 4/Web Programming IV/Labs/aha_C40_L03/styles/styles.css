@@ -1,0 +1,458 @@
+﻿@media all and (min-width: 768px) {
+    .makeReservationBtn {
+        margin-left: 10%;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        padding: .3em;
+        border-color: #06517F;
+        border-style: solid;
+        border-width: .3em;
+        border-radius: 10%;
+    }
+}
+
+
+body {
+    margin: 0;
+    background-color: #C8C8C8;
+}
+
+.topHeader {
+    background-color: #1485CC;
+    position: relative;
+    top: -3em;
+    width: 100%;
+    height: 6em;
+}
+
+.wrapper {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #C8C8C8;
+}
+
+.topHeader p {
+    margin-left: 2.5em;
+    color: white;
+    position: relative;
+    top: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.divNav {
+    background-color: #55A3D4;
+    color: #AF6D47;
+    padding: .3em;
+    font-weight: bold;
+    width: 16%;
+    height: 25em;
+    float: left;
+    margin-right: 1em;
+    margin-top: 3em;
+    font-family: sans-serif;
+
+}
+
+
+
+.userImage img {
+        margin-left: 35%;
+        margin-right: auto;
+        border-color: #06517F;
+        border-style: solid;
+        border-width: .3em;
+        border-radius: 100%;
+        padding: .2% 1%;
+        background-color: white;
+}
+
+.makeReservationDiv {
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.makeReservationBtn {
+    margin-left: 10%;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: .1em;
+    border-color: #06517F;
+    border-style: solid;
+    border-width: .3em;
+    font-size: 1em;
+}
+
+
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navList li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: .5em;
+    
+    
+}
+
+.navList li a:hover {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: blue;
+    
+}
+
+.divContent {    
+    float: left;
+   
+}
+
+.userName {
+    font-weight: bold;
+    font-size: 2.5em;
+    
+}
+
+.divForm {
+    background-color: #f0f0f0;
+    padding: 1em;
+    width: 70em;
+    
+    
+}
+
+.profilePicImage {
+    margin-left: 19.5em;
+}
+
+.profileDiv {
+    padding: 1em;    
+}
+
+.formFields input {
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+
+
+.formFields p span {
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 20em;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.formFields div div span {
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 20em;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.inline {
+    display: inline;
+}
+
+
+#txtEmail {
+    width: 18em;
+}
+
+#txtPostalCode {
+    width: 5em;
+}
+
+#txtStreet {
+    width: 18em;
+}
+
+.formFields p select {
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+#editNumberLink {
+    font-family: sans-serif;
+}
+
+#emerEditNumberLink {
+    font-family: sans-serif;
+}
+
+#btnUpdate {
+    margin-left: 73%;
+    margin-bottom: 10%;
+}
+
+#userNavRight {
+    float: left;
+    background-color: white;
+    width: 17%;   
+    margin-left: .5em;
+    margin-top: 3em;
+    background-color: #1485CC;
+    
+}
+
+#logOut {
+    position: relative;
+    left: 70%;
+    bottom: 3em;
+    padding: 1em;
+    border-radius: 25%;
+    background-color: lightblue;
+    border-color: white;
+}
+
+#editNumberLink {
+    margin-right: 2%;
+}
+
+.rightNav {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+#lblUserInfoPlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#lblProfilePicPlaceholder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#lblEmerContactPlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+#lblVaccinePlaceHolder {    
+    font-weight: bold;    
+    text-align: left;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+.editProfile {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.petNameLabel {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.genderButtons {
+    font-size: 1em;
+}
+
+.maleButton {
+    font-family: sans-serif;    
+    font-weight: bold;
+}
+
+.fixedPara {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#btnLinkBordetella {   
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding-left: .2em;
+   padding-right: .2em;
+   background-color: white;
+   margin-left: 1em;
+}
+
+#btnLinkDistemper {
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding-left: .2em;
+   padding-right: .2em;
+   background-color: white;
+   margin-left: 1em;
+}
+
+#btnLinkHepatitis {
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding-left: .2em;
+   padding-right: .2em;
+   background-color: white;
+   margin-left: 1em;
+}
+
+
+#btnLinkParainfluenza {
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding-left: .2em;
+   padding-right: .2em;
+   background-color: white;
+   margin-left: 1em;
+}
+
+#btnLinkParavirus {
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding-left: .2em;
+   padding-right: .2em;
+   background-color: white;
+   margin-left: 1em;
+}
+
+#btnLinkRabies {
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding-left: .2em;
+   padding-right: .2em;
+   background-color: white;
+   margin-left: 1em;
+}
+
+
+#calendarBordetella {
+    position: relative;    
+    top: 0.8em;    
+}
+
+#calendarDistemper {
+    position: relative;    
+    top: 0.8em;
+}
+
+#calendarHepatitis {
+    position: relative;    
+    top: 0.8em;
+}
+
+#calendarParainfluenza {
+    position: relative;    
+    top: 0.8em;
+}
+
+#calendarParavirus {
+    position: relative;    
+    top: 0.8em;
+}
+
+#calendarRabies {
+    position: relative;    
+    top: 0.8em;
+}
+
+
+
+
+
+table {
+    display: inline-table
+}
+
+.inline checkbox {
+    font-family: sans-serif;
+}
+
+.inline label{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#lblSelectedDateBordetella {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#lblSelectedDateDistemper {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#lblSelectedDateHepatitis {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#lblSelectedDateParainfluenza {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#lblSelectedDateParavirus {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#lblSelectedDateRabies {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+

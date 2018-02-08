@@ -1,0 +1,15 @@
+C:\Dropbox\Heritage Docs\420-B42\Labs\L04_UnitTestLibraries\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll
+C:\Dropbox\Heritage Docs\420-B42\Labs\L04_UnitTestLibraries\BankLibrary\BankLibrary\bin\Debug\BankLibrary.pdb
+C:\Dropbox\Heritage Docs\420-B42\Labs\L04_UnitTestLibraries\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csprojResolveAssemblyReference.cache
+C:\Dropbox\Heritage Docs\420-B42\Labs\L04_UnitTestLibraries\BankLibrary\BankLibrary\obj\Debug\BankLibrary.dll
+C:\Dropbox\Heritage Docs\420-B42\Labs\L04_UnitTestLibraries\BankLibrary\BankLibrary\obj\Debug\BankLibrary.pdb
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\BankLibrary\BankLibrary\bin\Debug\BankLibrary.pdb
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csprojResolveAssemblyReference.cache
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\BankLibrary\BankLibrary\obj\Debug\BankLibrary.dll
+D:\Dropbox\Heritage Docs\420-B42\Labs\Old\L04_UnitTestLibraries\BankLibrary\BankLibrary\obj\Debug\BankLibrary.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L03\BankLibrary\BankLibrary\bin\Debug\BankLibrary.dll
+H:\4th Semester\420-B42\Labs\aha_B42L03\BankLibrary\BankLibrary\bin\Debug\BankLibrary.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L03\BankLibrary\BankLibrary\obj\Debug\BankLibrary.csprojResolveAssemblyReference.cache
+H:\4th Semester\420-B42\Labs\aha_B42L03\BankLibrary\BankLibrary\obj\Debug\BankLibrary.dll
+H:\4th Semester\420-B42\Labs\aha_B42L03\BankLibrary\BankLibrary\obj\Debug\BankLibrary.pdb

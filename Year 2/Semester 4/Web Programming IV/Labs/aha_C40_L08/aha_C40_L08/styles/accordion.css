@@ -1,0 +1,18 @@
+﻿body {
+    font-family: sans-serif;
+}
+
+.contentclass {
+    background-color: #FFBFB9;
+    
+}
+
+.headerclass {
+    font-weight: bold;
+    background-color: #FFA7A0;
+}
+
+.headerselected {
+    font-weight: bold;
+    background-color: #B23E34;
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptainAmerica_B42A02", "CaptainAmerica_B42A02\CaptainAmerica_B42A02.csproj", "{09615B4E-07C8-4E27-B809-2EEEB1BC9820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptainAmericaTest", "CaptainAmericaMethodsTest.cs\CaptainAmericaTest.csproj", "{01051E95-B0EF-45CF-AF34-A4BC68634998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09615B4E-07C8-4E27-B809-2EEEB1BC9820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09615B4E-07C8-4E27-B809-2EEEB1BC9820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09615B4E-07C8-4E27-B809-2EEEB1BC9820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09615B4E-07C8-4E27-B809-2EEEB1BC9820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01051E95-B0EF-45CF-AF34-A4BC68634998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01051E95-B0EF-45CF-AF34-A4BC68634998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01051E95-B0EF-45CF-AF34-A4BC68634998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01051E95-B0EF-45CF-AF34-A4BC68634998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

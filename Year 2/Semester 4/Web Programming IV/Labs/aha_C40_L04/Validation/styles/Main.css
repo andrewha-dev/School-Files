@@ -1,0 +1,53 @@
+﻿/* The styles for the elements */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+}
+
+/* The style for the page division */
+h1
+{
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #0000FF;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+h2
+{
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #808080;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h3
+{
+    font-size: 13pt;
+    color: #0000FF;
+    margin-bottom: 7px;
+}
+p
+{
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+#page
+{
+    border: thin solid #000000;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: White;
+}
+
+.validator {
+    color: red;
+}

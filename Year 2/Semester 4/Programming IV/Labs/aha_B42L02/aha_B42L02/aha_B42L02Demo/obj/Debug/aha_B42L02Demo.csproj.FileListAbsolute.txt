@@ -1,0 +1,16 @@
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\bin\Debug\aha_B42L02Demo.exe.config
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\bin\Debug\aha_B42L02Demo.exe
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\bin\Debug\aha_B42L02Demo.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\bin\Debug\aha_B42L02.dll
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\bin\Debug\aha_B42L02.pdb
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo.csprojResolveAssemblyReference.cache
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\MainWindow.g.cs
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\App.g.cs
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo_MarkupCompile.cache
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo_MarkupCompile.lref
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\MainWindow.baml
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo.g.resources
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo.Properties.Resources.resources
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo.csproj.GenerateResource.Cache
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo.exe
+H:\4th Semester\420-B42\Labs\aha_B42L02\aha_B42L02\aha_B42L02Demo\obj\Debug\aha_B42L02Demo.pdb

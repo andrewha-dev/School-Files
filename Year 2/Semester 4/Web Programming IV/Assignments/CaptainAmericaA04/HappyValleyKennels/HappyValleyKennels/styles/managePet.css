@@ -1,0 +1,28 @@
+﻿
+td{
+    padding: 0px;
+
+}
+#petVaccinations{
+    position: relative;
+    left: 26%;
+}
+td p{
+    padding: 0px;
+}
+td p div{
+    padding: 0px;
+}
+#petDDL{
+    position: relative;
+    left: 0.25%;
+}
+.vaccinationLabels{
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 34%;
+    text-align: right;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}

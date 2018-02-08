@@ -1,0 +1,24 @@
+﻿<Window x:Class="aha_B42L05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aha_B42L05"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="416.018" Width="751.347" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:dsOwner x:Key="dsOwner"/>
+        <CollectionViewSource x:Key="hVK_OWNERViewSource" Source="{Binding HVK_OWNER, Source={StaticResource dsOwner}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource hVK_OWNERViewSource}" Background="#FFBF3333">
+        <DataGrid x:Name="hVK_OWNERDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="55,42,62,78" RowDetailsVisibilityMode="VisibleWhenSelected" BorderBrush="#FF1169BF" Foreground="#FFD82121" Background="#FFBF3333">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="oWNER_FIRST_NAMEColumn" Binding="{Binding OWNER_FIRST_NAME}" Header="First Name" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_LAST_NAMEColumn" Binding="{Binding OWNER_LAST_NAME}" Header="Last Name" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_PHONEColumn" Binding="{Binding OWNER_PHONE}" Header="Phone" Width="auto"/>
+                <DataGridTextColumn x:Name="oWNER_EMAILColumn" Binding="{Binding OWNER_EMAIL}" Header="Email" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aha_B42L02", "aha_B42L02\aha_B42L02.csproj", "{8D822ED4-2E2D-418D-866C-0297B562C473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aha_B42L02Demo", "aha_B42L02Demo\aha_B42L02Demo.csproj", "{D8376B97-856B-4BC1-B882-AA2760BC69A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aha_CardDeck", "aha_B42L02B\Card\aha_CardDeck.csproj", "{D4C16143-FC2A-4754-A3B2-B525D9D8DE1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D822ED4-2E2D-418D-866C-0297B562C473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D822ED4-2E2D-418D-866C-0297B562C473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D822ED4-2E2D-418D-866C-0297B562C473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D822ED4-2E2D-418D-866C-0297B562C473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8376B97-856B-4BC1-B882-AA2760BC69A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8376B97-856B-4BC1-B882-AA2760BC69A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8376B97-856B-4BC1-B882-AA2760BC69A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8376B97-856B-4BC1-B882-AA2760BC69A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C16143-FC2A-4754-A3B2-B525D9D8DE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C16143-FC2A-4754-A3B2-B525D9D8DE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C16143-FC2A-4754-A3B2-B525D9D8DE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C16143-FC2A-4754-A3B2-B525D9D8DE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
