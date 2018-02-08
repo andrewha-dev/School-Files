@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Name">
+		<xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value=".{0,20}"></xs:pattern>
+      </xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Price">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[$]\d+(\.\d{1,2})?">
+				</xs:pattern>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Product">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Name"/>
+				<xs:element ref="Price"/>
+			</xs:sequence>
+			<xs:attribute name="Category" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Art"/>
+						<xs:enumeration value="Beverages"/>
+						<xs:enumeration value="Electronics"/>
+						<xs:enumeration value="Home"/>
+						<xs:enumeration value="Music"/>
+						<xs:enumeration value="Other"/>
+						<xs:enumeration value="Sporting"/>
+						<xs:enumeration value="Toys"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Quantity" type="xs:positiveInteger">
+	</xs:element>
+	<xs:element name="ShoppingList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ShoppingEntry" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ShoppingEntry">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Product"/>
+				<xs:element ref="Quantity"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

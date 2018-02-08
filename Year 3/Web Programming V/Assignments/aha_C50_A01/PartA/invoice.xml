@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="invoice.xsd">
+	<info invoiceNumber="1">
+		<invoiceDate>2017-10-10</invoiceDate>
+		<billRate>50</billRate>
+	</info>
+	<client clientId="3">
+		<contactLastName>Hood</contactLastName>
+		<contactFirstName>Donna</contactFirstName>
+		<clientStreet>74 Benton</clientStreet>
+		<clientCity>Gatineau</clientCity>
+		<clientProvince>QC</clientProvince>
+		<clientPostalCode>J8Y6T3</clientPostalCode>
+		<clientDiscount>0.05</clientDiscount>
+	</client>
+	<workRecord workNumber="3">
+		<billedHours>1</billedHours>
+		<workDate>2017-09-30</workDate>
+		<workDescription>Install cable</workDescription>
+		<workTypeNumber>CA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="4">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-02</workDate>
+		<workDescription>Server setup and OS installation</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="1">
+		<billedHours>4</billedHours>
+		<workDate>2017-08-31</workDate>
+		<workDescription>Hub and router setup</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="6">
+		<billedHours>2</billedHours>
+		<workDate>2017-07-07</workDate>
+		<workDescription>PC Repair - Bad NIC</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="11">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-09</workDate>
+		<workDescription>New PC Setup</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+</invoice>

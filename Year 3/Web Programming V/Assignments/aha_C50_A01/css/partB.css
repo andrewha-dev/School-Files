@@ -1,0 +1,71 @@
+@media all and (min-width: 768px) {
+    .notMobile {
+        display: inline !important;
+    }
+    .formDiv {
+        margin-bottom: 5em;
+    }
+
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+#home {
+    background-color: #104000;
+}
+
+.navbar {
+    color: white;
+    border-color: #207F01;
+    border-bottom-color: white;
+    background-color: #3D7F27;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:visited {
+    background-color: #3D7F27;
+}
+
+.navbar li a:hover {
+    background-color: #3AB213;
+}
+
+.bottomnav {
+    margin-top: 1em;
+}
+.notMobile {
+    display: none;
+}
+
+.formDiv {
+    margin-bottom: .5em;
+}
+
+.entry {
+  border: .1em solid black;
+  min-height: 300px;
+}
+
+h3 {
+  margin-left: 35%;
+  text-decoration: underline;
+}
+
+.spanLabel {
+  font-weight: bold;
+  font-size: 1em!important;
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  color: black;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.1em;
+}

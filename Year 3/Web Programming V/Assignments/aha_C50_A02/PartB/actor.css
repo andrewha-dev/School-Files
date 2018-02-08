@@ -1,0 +1,57 @@
+/* Author: Andrew Ha 
+ * October 10, 2017
+ */
+@namespace act url(http://csdev.cegep-heritage.qc.ca/act);
+act|actor {
+	display: block; 
+	font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20pt;
+}
+
+act|name, act|date   {
+	display: block;
+}
+
+act|name {
+	font-size: 14pt; 
+	color: DarkRed; 
+	font-style: bold;
+}
+
+act|date, act|birthplace   {
+	display: inline; 
+	font-style: italic; 
+	color: DarkRed;
+}
+
+act|birthplace {
+	padding-left: 0.5em;
+}
+
+
+/* place namespace escape style below */
+act\:actor {
+	display: block; 
+	font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20pt;
+}
+
+act\:name, act\:date   {
+	display: block;
+}
+
+act\:name {
+	font-size: 14pt; 
+	color: DarkRed; 
+	font-style: bold;
+}
+
+act\:date, act\:birthplace   {
+	display: inline; 
+	font-style: italic; 
+	color: DarkRed;
+}
+
+act\:birthplace {
+	padding-left: 0.5em;
+}

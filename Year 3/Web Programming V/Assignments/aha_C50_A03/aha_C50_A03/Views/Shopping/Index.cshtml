@@ -1,0 +1,158 @@
+﻿@model IEnumerable<aha_C50_A03.Models.ShoppingEntry>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.Partial("CreatePartial")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.productName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.productName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        @*@if (ViewBag.IsValid)
+        {*@
+            <td>
+
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                <a href="#" class="details" id="@item.id">Details</a> |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+            </td>
+        @*}*@
+       
+    </tr>
+}
+
+</table>
+
+<h4><b>Total Price: </b>$@ViewBag.Price</h4>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Details</h4>
+            </div>
+            <div class="modal-body">
+                <p>Category: <span id="spanCat"></span></p>
+                <p>Product Name: <span id="spanProd"></span></p>
+                <p>Price: <span id="spanPrice"></span></p>
+                <p>Quantity: <span id="spanQuantity"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="res">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".details").on('click', function () {        
+         $.ajax({
+                type: "POST",
+                dataType: 'json',                       
+                url: '/Shopping/Details',
+                data: { id: this.id},
+            }).done(function (data) {
+                console.log(data);
+                var json = $.parseJSON(data);
+                
+                $("#spanCat").text(json.category)
+                $("#spanProd").text(json.productName)
+                $("#spanPrice").text(json.price)
+                $("#spanQuantity").text(json.quantity)
+                $("#myModal").modal();
+                });
+            
+        })
+
+        $("#create").click(function () {
+            console.log("Here")
+            $.ajax({
+                type: "POST",
+                dataType: 'html',                       
+                url: '/Shopping/GetCreate'
+            }).done(function (data) {
+                $("#res").html(data);                
+                reattachListenerToField();
+            });
+            
+        })
+
+        //CHECK FOR UNIQUENESS WITH MEANINGFUL MESSAGES!!!!!
+        var reattachListenerToField = function()
+        {
+            $("#uniqueNameMessage").hide();
+            $("#productName").off();
+            $("#productName").focusout(function () {
+                $.ajax({
+                    type: "POST",
+                    dataType: 'json',
+                    url: '/Shopping/CheckDuplicate',
+                    data: {name: $("#productName").val()}
+                }).done(function (success) {
+                    if (success)
+                    {
+                        $(".btn-default").prop('disabled', true);
+                        $("#uniqueNameMessage").show();
+                    }
+                    else
+                    {
+                        $("#uniqueNameMessage").hide();
+                        $(".btn-default").prop('disabled', false);
+                    }
+                });
+            })
+        }
+        
+
+        
+
+
+    })
+</script>

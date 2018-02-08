@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+	<client>
+		<id>1</id>
+		<clientName>Terrific Tree Service</clientName>
+		<invoice>invoice2.xml</invoice>
+	</client>
+	<client>
+		<id>3</id>
+		<clientName>Alden Books</clientName>
+		<invoice>invoice.xml</invoice>
+	</client>
+	<client>
+		<id>2</id>
+		<clientName>Browse Her Pages</clientName>
+		<invoice>invoice3.xml</invoice>
+	</client>
+</clients>

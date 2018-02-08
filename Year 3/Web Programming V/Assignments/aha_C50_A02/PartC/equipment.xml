@@ -1,0 +1,204 @@
+<?xml version="1.0" ?>
+
+<equipmentList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://csdev.cegep-heritage.qc.ca/equipment ./equip.xsd"
+xmlns="http://csdev.cegep-heritage.qc.ca/equipment">
+  <equipment equipmentNumber="2">
+    <equipmentName>Mertz</equipmentName>
+    <inserviceDate>2011-01-23</inserviceDate>
+    <clientId>3</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="3">
+    <equipmentName>Child</equipmentName>
+    <inserviceDate>2011-01-23</inserviceDate>
+    <clientId>3</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="4">
+    <equipmentName>Rambo</equipmentName>
+    <inserviceDate>2011-01-23</inserviceDate>
+    <clientId>3</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="5">
+    <equipmentName>Gilligan</equipmentName>
+    <inserviceDate>2011-05-23</inserviceDate>
+    <clientId>4</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="6">
+    <equipmentName>Moll</equipmentName>
+    <inserviceDate>2011-05-23</inserviceDate>
+    <clientId>4</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="7">
+    <equipmentName>Poe</equipmentName>
+    <inserviceDate>2011-05-23</inserviceDate>
+    <clientId>4</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="8">
+    <equipmentName>Bradbury</equipmentName>
+    <inserviceDate>2011-09-02</inserviceDate>
+    <clientId>5</clientId>
+    <equipmentType>PR</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="9">
+    <equipmentName>Frag</equipmentName>
+    <inserviceDate>2011-09-03</inserviceDate>
+    <clientId>6</clientId>
+    <equipmentType>PR</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="10">
+    <equipmentName>Hoser</equipmentName>
+    <inserviceDate>2011-09-03</inserviceDate>
+    <clientId>6</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="11">
+    <equipmentName>Rose</equipmentName>
+    <inserviceDate>2011-09-03</inserviceDate>
+    <clientId>6</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="12">
+    <equipmentName>Troi</equipmentName>
+    <inserviceDate>2011-09-03</inserviceDate>
+    <clientId>6</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="13">
+    <equipmentName>Nimitz</equipmentName>
+    <inserviceDate>2011-10-28</inserviceDate>
+    <clientId>7</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="14">
+    <equipmentName>Beetle</equipmentName>
+    <inserviceDate>2011-10-28</inserviceDate>
+    <clientId>7</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="15">
+    <equipmentName>Reverb</equipmentName>
+    <inserviceDate>2011-10-28</inserviceDate>
+    <clientId>7</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="16">
+    <equipmentName>Reliant</equipmentName>
+    <inserviceDate>2011-10-28</inserviceDate>
+    <clientId>7</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="17">
+    <equipmentName>Tiger</equipmentName>
+    <inserviceDate>2011-11-08</inserviceDate>
+    <clientId>8</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="18">
+    <equipmentName>Goober</equipmentName>
+    <inserviceDate>2011-11-08</inserviceDate>
+    <clientId>8</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="19">
+    <equipmentName>Lamer</equipmentName>
+    <inserviceDate>2012-02-18</inserviceDate>
+    <clientId>8</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="20">
+    <equipmentName>Bug</equipmentName>
+    <inserviceDate>2012-03-28</inserviceDate>
+    <clientId>9</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="21">
+    <equipmentName>OkieDokie</equipmentName>
+    <inserviceDate>2012-03-28</inserviceDate>
+    <clientId>9</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="22">
+    <equipmentName>Enola</equipmentName>
+    <inserviceDate>2012-04-12</inserviceDate>
+    <clientId>10</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="23">
+    <equipmentName>Wolfman</equipmentName>
+    <inserviceDate>2012-04-12</inserviceDate>
+    <clientId>10</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="24">
+    <equipmentName>Horsefeathers</equipmentName>
+    <inserviceDate>2012-06-13</inserviceDate>
+    <clientId>11</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="25">
+    <equipmentName>Encroachment</equipmentName>
+    <inserviceDate>2012-06-13</inserviceDate>
+    <clientId>11</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="26">
+    <equipmentName>Coyote</equipmentName>
+    <inserviceDate>2012-09-13</inserviceDate>
+    <clientId>11</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="27">
+    <equipmentName>Swordfish</equipmentName>
+    <inserviceDate>2012-09-13</inserviceDate>
+    <clientId>11</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="28">
+    <equipmentName>Whale</equipmentName>
+    <inserviceDate>2012-09-13</inserviceDate>
+    <clientId>11</clientId>
+    <equipmentType>PR</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="29">
+    <equipmentName>Mantay Ray</equipmentName>
+    <inserviceDate>2012-09-30</inserviceDate>
+    <clientId>11</clientId>
+    <equipmentType>SC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="30">
+    <equipmentName>Bug</equipmentName>
+    <inserviceDate>2012-10-11</inserviceDate>
+    <clientId>7</clientId>
+    <equipmentType>PR</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="31">
+    <equipmentName>Insect</equipmentName>
+    <inserviceDate>2012-10-11</inserviceDate>
+    <clientId>7</clientId>
+    <equipmentType>PR</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="32">
+    <equipmentName>Dracula</equipmentName>
+    <inserviceDate>2012-10-29</inserviceDate>
+    <clientId>10</clientId>
+    <equipmentType>SC</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="33">
+    <equipmentName>Batman</equipmentName>
+    <inserviceDate>2012-12-12</inserviceDate>
+    <clientId>10</clientId>
+    <equipmentType>PR</equipmentType>
+  </equipment>
+  <equipment equipmentNumber="34">
+    <equipmentName>Skipper</equipmentName>
+    <inserviceDate>2012-01-23</inserviceDate>
+    <clientId>4</clientId>
+    <equipmentType>PC</equipmentType>
+  </equipment>
+</equipmentList>

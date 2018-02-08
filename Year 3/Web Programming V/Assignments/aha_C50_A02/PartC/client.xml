@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<clients xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://csdev.cegep-heritage.qc.ca/client ./client.xsd"
+xmlns="http://csdev.cegep-heritage.qc.ca/client">
+	<client clientId="3">
+		<clientName>Alden Books</clientName>
+		<contactLastName>Hood</contactLastName>
+		<contactFirstName>Donna</contactFirstName>
+		<clientStreet>74 Benton</clientStreet>
+		<clientCity>Gatineau</clientCity>
+		<clientProvince>QC</clientProvince>
+		<clientPostalCode>J8Y6T3</clientPostalCode>
+		<clientDiscount>0.05</clientDiscount>
+	</client>
+	<client clientId="4">
+		<clientName>Bud&apos;s Diner</clientName>
+		<contactLastName>Mehome</contactLastName>
+		<contactFirstName>Carrie</contactFirstName>
+		<clientStreet>384 Garten</clientStreet>
+		<clientCity>Ottawa</clientCity>
+		<clientProvince>ON</clientProvince>
+		<clientPostalCode>K8Y6T3</clientPostalCode>
+		<clientDiscount>0.10</clientDiscount>
+	</client>
+	<client clientId="5">
+		<clientName>Chip and Putt</clientName>
+		<contactLastName>Banks</contactLastName>
+		<contactFirstName>Rob</contactFirstName>
+		<clientStreet>1 Golfview</clientStreet>
+		<clientCity>Ottawa</clientCity>
+		<clientProvince>ON</clientProvince>
+		<clientPostalCode>K8Y6T3</clientPostalCode>
+		<clientDiscount>0.15</clientDiscount>
+	</client>
+	<client clientId="6">
+		<clientName>Clover Clothes</clientName>
+		<contactLastName>Voyant</contactLastName>
+		<contactFirstName>Claire</contactFirstName>
+		<clientStreet>62 Adams</clientStreet>
+		<clientCity>Maniwaki</clientCity>
+		<clientProvince>QC</clientProvince>
+		<clientPostalCode>J8Y8T3</clientPostalCode>
+		<clientDiscount>0.05</clientDiscount>
+	</client>
+	<client clientId="7">
+		<clientName>Dogs &apos;n Draft</clientName>
+		<contactLastName>Yell</contactLastName>
+		<contactFirstName>Dan</contactFirstName>
+		<clientStreet>3 Riverview</clientStreet>
+		<clientCity>Ottawa</clientCity>
+		<clientProvince>ON</clientProvince>
+		<clientPostalCode>K8Y6T3</clientPostalCode>
+		<clientDiscount>0.00</clientDiscount>
+	</client>
+	<client clientId="8">
+		<clientName>Green Thumb</clientName>
+		<contactLastName>Good</contactLastName>
+		<contactFirstName>Ivor</contactFirstName>
+		<clientStreet>619 Lincoln</clientStreet>
+		<clientCity>Maniwaki</clientCity>
+		<clientProvince>QC</clientProvince>
+		<clientPostalCode>J8Y8T3</clientPostalCode>
+		<clientDiscount>0.00</clientDiscount>
+	</client>
+	<client clientId="9">
+		<clientName>Lighthouse Inc.</clientName>
+		<contactLastName>Linn</contactLastName>
+		<contactFirstName>Amanda</contactFirstName>
+		<clientStreet>1 Riverview</clientStreet>
+		<clientCity>Ottawa</clientCity>
+		<clientProvince>ON</clientProvince>
+		<clientPostalCode>K8Y6T3</clientPostalCode>
+		<clientDiscount>1.00</clientDiscount>
+	</client>
+	<client clientId="10">
+		<clientName>New Releases</clientName>
+		<contactLastName>Piper</contactLastName>
+		<contactFirstName>Peter</contactFirstName>
+		<clientStreet>107 Main</clientStreet>
+		<clientCity>Gatineau</clientCity>
+		<clientProvince>QC</clientProvince>
+		<clientPostalCode>J8Y6T3</clientPostalCode>
+		<clientDiscount>0.05</clientDiscount>
+	</client>
+	<client clientId="11">
+		<clientName>Skates R You</clientName>
+		<contactLastName>O&apos;Furniture</contactLastName>
+		<contactFirstName>Paddy</contactFirstName>
+		<clientStreet>67 Adams</clientStreet>
+		<clientCity>Maniwaki</clientCity>
+		<clientProvince>QC</clientProvince>
+		<clientPostalCode>J8Y8T3</clientPostalCode>
+		<clientDiscount>0.00</clientDiscount>
+	</client>
+</clients>

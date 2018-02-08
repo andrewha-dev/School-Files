@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2017 rel. 3 sp1 (x64) (http://www.altova.com) by Computer Science (CEGEP Heritage College) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://csdev.cegep-heritage.qc.ca/olympics" targetNamespace="http://csdev.cegep-heritage.qc.ca/olympics">
+	<xs:element name="countries">
+		<xs:complexType>			
+			<xs:sequence>
+				<xs:element ref="country" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+		
+	</xs:element>
+	
+	<xs:element name="country">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="athletes"/>
+				<xs:element ref="medals"/>
+				<xs:element ref="flagBearer"/>
+			</xs:sequence>
+			<xs:attribute name="year" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="name">
+	</xs:element>
+	
+	<xs:element name="athletes">
+	</xs:element>
+	
+	<xs:element name="medals">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="gold" minOccurs="0"/>
+				<xs:element ref="silver" minOccurs="0"/>
+				<xs:element ref="bronze" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="flagBearer">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="lastName"/>
+				<xs:element ref="firstName"/>
+			</xs:sequence>
+			<xs:attribute name="sport" type="sportType"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="gold" type="xs:integer">
+	</xs:element>
+	
+	<xs:element name="silver" type="xs:integer">
+	</xs:element>
+	
+	<xs:element name="bronze" type="xs:integer">
+	</xs:element>
+	
+	<xs:element name="lastName" type="xs:string">
+	</xs:element>
+	
+	<xs:element name="firstName" type="xs:string">
+	</xs:element>
+	
+	<xs:attribute name="year" type="xs:integer"/>
+	
+	<xs:attribute name="sport" type="sportType"/>
+	
+	<xs:simpleType name="sportType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Alpine skiing"/>
+			<xs:enumeration value="Biathlon"/>
+			<xs:enumeration value="Bobsleigh"/>
+			<xs:enumeration value="Cross-country skiing"/>
+			<xs:enumeration value="Curling"/>
+			<xs:enumeration value="Figure Skating"/>
+			<xs:enumeration value="Freestyle skiing"/>
+			<xs:enumeration value="Ice hockey"/>
+			<xs:enumeration value="Luge"/>
+			<xs:enumeration value="Nordic combined"/>
+			<xs:enumeration value="Short track speed skating"/>
+			<xs:enumeration value="Skeleton"/>
+			<xs:enumeration value="Ski jumping"/>
+			<xs:enumeration value="Snowboarding"/>
+			<xs:enumeration value="Speed skating"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+</xs:schema>

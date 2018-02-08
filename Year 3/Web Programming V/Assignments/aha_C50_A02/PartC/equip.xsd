@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://csdev.cegep-heritage.qc.ca/equipment" targetNamespace="http://csdev.cegep-heritage.qc.ca/equipment" elementFormDefault="qualified">
+	<xs:simpleType name="equipmentTypeValue">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PC"/>
+			<xs:enumeration value="PR"/>
+			<xs:enumeration value="SC"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:group name="equipmentGroup">
+		<xs:sequence>
+			<xs:element name="equipmentName" type="xs:string"/>
+			<xs:element name="inserviceDate" type="xs:date"/>
+			<xs:element name="clientId" type="xs:integer"/>
+			<xs:element name="equipmentType" type="equipmentTypeValue"/>
+		</xs:sequence>	
+	</xs:group>
+
+	<xs:complexType name="equipmentType">
+		<xs:group ref="equipmentGroup"/>
+		<xs:attribute name="equipmentNumber" type="xs:positiveInteger"/>		
+	</xs:complexType>
+	
+	<xs:element name="equipmentList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="equipment" type="equipmentType" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+</xs:schema>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./invoice.xsl"?>
+<invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="invoice.xsd">
+	<info invoice_number="2">
+		<invoice_date>2016-10-21</invoice_date>
+		<bill_rate>60</bill_rate>
+	</info>
+	<client Client_Id="1">
+		<Client_Name>Terrific Tree Service</Client_Name>
+		<Contact_Lastname>Green</Contact_Lastname>
+		<Contact_Firstname>Al Ways</Contact_Firstname>
+		<Client_Street>27 Elm St</Client_Street>
+		<Client_City>Ottawa</Client_City>
+		<Client_Province>ON</Client_Province>
+		<Client_Postalcode>K2K7Y6</Client_Postalcode>
+		<Client_Discount>0.10</Client_Discount>
+	</client>
+	<work_record work_number="4">
+		<billed_hours>1</billed_hours>
+		<work_date>2016-10-17</work_date>
+		<work_description>Create web domain</work_description>
+		<work_type_number>DA</work_type_number>
+	</work_record>
+	<work_record work_number="3">
+		<billed_hours>6</billed_hours>
+		<work_date>2016-10-16</work_date>
+		<work_description>Design site</work_description>
+		<work_type_number>DA</work_type_number>
+	</work_record>
+	<work_record work_number="2">
+		<billed_hours>8</billed_hours>
+		<work_date>2016-10-14</work_date>
+		<work_description>Implement Design</work_description>
+		<work_type_number>DA</work_type_number>
+	</work_record>
+	<work_record work_number="1">
+		<billed_hours>2</billed_hours>
+		<work_date>2016-10-12</work_date>
+		<work_description>Deploy site</work_description>
+		<work_type_number>DA</work_type_number>
+	</work_record>
+	<work_record work_number="5">
+		<billed_hours>2</billed_hours>
+		<work_date>2016-10-20</work_date>
+		<work_description>Follow up</work_description>
+		<work_type_number>HA</work_type_number>
+	</work_record>
+</invoice>

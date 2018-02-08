@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="invoice.xsd">
+	<info invoiceNumber="2">
+		<invoiceDate>2017-10-21</invoiceDate>
+		<billRate>60</billRate>
+	</info>
+	<client clientId="1">
+		<contactLastName>Green</contactLastName>
+		<contactFirstName>Al Ways</contactFirstName>
+		<clientStreet>27 Elm St</clientStreet>
+		<clientCity>Ottawa</clientCity>
+		<clientProvince>ON</clientProvince>
+		<clientPostalCode>K2K7Y6</clientPostalCode>
+		<clientDiscount>0.10</clientDiscount>
+	</client>
+	<workRecord workNumber="4">
+		<billedHours>1</billedHours>
+		<workDate>2017-10-17</workDate>
+		<workDescription>Create web domain</workDescription>
+		<workTypeNumber>DA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="3">
+		<billedHours>6</billedHours>
+		<workDate>2017-10-16</workDate>
+		<workDescription>Design site</workDescription>
+		<workTypeNumber>DA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="2">
+		<billedHours>8</billedHours>
+		<workDate>2017-10-14</workDate>
+		<workDescription>Implement Design</workDescription>
+		<workTypeNumber>DA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="1">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-12</workDate>
+		<workDescription>Deploy site</workDescription>
+		<workTypeNumber>DA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="5">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-20</workDate>
+		<workDescription>Follow up</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+</invoice>

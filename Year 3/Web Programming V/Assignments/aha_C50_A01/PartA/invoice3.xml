@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="invoice.xsd">
+	<info invoiceNumber="3">
+		<invoiceDate>2017-10-27</invoiceDate>
+		<billRate>65</billRate>
+	</info>
+	<client clientId="1">
+		<contactLastName>Render</contactLastName>
+		<contactFirstName>Sir</contactFirstName>
+		<clientStreet>99 Edge Way</clientStreet>
+		<clientCity>Seattle</clientCity>
+		<clientProvince>WA</clientProvince>
+		<clientPostalCode>34560-12</clientPostalCode>
+		<clientDiscount>0.05</clientDiscount>
+	</client>
+	<workRecord workNumber="2">
+		<billedHours>8</billedHours>
+		<workDate>2017-10-19</workDate>
+		<workDescription>Develop JavaScript Engine</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="1">
+		<billedHours>4</billedHours>
+		<workDate>2017-10-16</workDate>
+		<workDescription>Added nodejs microservice</workDescription>
+		<workTypeNumber>CA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="3">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-19</workDate>
+		<workDescription>Created new template flow</workDescription>
+		<workTypeNumber>DA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="4">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-21</workDate>
+		<workDescription>Deploy working site</workDescription>
+		<workTypeNumber>DA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="5">
+		<billedHours>2</billedHours>
+		<workDate>2017-10-23</workDate>
+		<workDescription>Follow up</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+	<workRecord workNumber="6">
+		<billedHours>4</billedHours>
+		<workDate>2017-10-26</workDate>
+		<workDescription>Prepare new sprint notification</workDescription>
+		<workTypeNumber>HA</workTypeNumber>
+	</workRecord>
+</invoice>

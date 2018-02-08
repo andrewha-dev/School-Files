@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://csdev.cegep-heritage.qc.ca/client" targetNamespace="http://csdev.cegep-heritage.qc.ca/client"
+elementFormDefault="qualified">
+	<xs:simpleType name="provinceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BC"/>
+			<xs:enumeration value="AB"/>
+			<xs:enumeration value="SK"/>
+			<xs:enumeration value="MN"/>
+			<xs:enumeration value="ON"/>
+			<xs:enumeration value="QC"/>
+			<xs:enumeration value="NB"/>
+			<xs:enumeration value="NS"/>
+			<xs:enumeration value="PE"/>
+			<xs:enumeration value="NL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="postalCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\w\d\w\d\w\d"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="percentType">
+		<xs:restriction base="xs:double">
+			 <xs:minInclusive value="0"/>
+			 <xs:maxInclusive value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="clientType">
+		<xs:sequence>
+		<xs:element name="clientName" type="xs:string"/>
+		<xs:element name="contactLastName" type="xs:string"/>
+		<xs:element name="contactFirstName" type="xs:string"/>
+		<xs:element name="clientStreet" type="xs:string"/>
+		<xs:element name="clientCity" type="xs:string"/>
+		<xs:element name="clientProvince" type="provinceType"/>
+		<xs:element name="clientPostalCode" type="postalCodeType"/>
+		<xs:element name="clientDiscount" type="percentType"/>
+		</xs:sequence>
+		<xs:attribute name="clientId" type="xs:positiveInteger"/>
+	</xs:complexType>
+	
+	<xs:element name="clients">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="client" type="clientType" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="movies.css" ?>
+
+<movies>
+    <movie genre="action" star="Halle Berry">
+    <name>Catwoman</name>
+	<date>(2004)</date>
+	<length>104 minutes</length>
+    </movie>
+
+    <movie genre="horror" star="Halle Berry">
+        <name>Gothika</name>
+	<date>(2003)</date>
+	<length>98 minutes</length>
+    </movie>
+
+    <movie genre="drama" star="Halle Berry">
+        <name>Monster&apos;s Ball</name>
+	<date>(2001)</date>
+	<length>111 minutes</length>
+    </movie>
+
+    <movie genre="fantasy" star="Halle Berry">
+        <name>X-Men</name>
+	<date>(2000)</date>
+	<length>104 minutes</length>
+    </movie>
+
+    <movie genre="romance" star="Halle Berry">
+        <name>Jungle Fever</name>
+	<date>(1991)</date>
+	<length>132 minutes</length>
+    </movie>
+
+
+    <movie genre="drama" star="Tom Hanks">
+        <name>Catch Me If You Can</name>
+	<date>(2002)</date>
+	<length>141 minutes</length>
+    </movie>
+
+    <movie genre="adventure" star="Tom Hanks">
+        <name>Cast Away</name>
+	<date>(2000)</date>
+	<length>143 minutes</length>
+    </movie>
+
+    <movie genre="action" star="Tom Hanks">
+        <name>Saving Private Ryan</name>
+	<date>(1998)</date>
+	<length>170 minutes</length>
+    </movie>
+
+    <movie genre="adventure" star="Tom Hanks">
+        <name>Apollo 13</name>
+	<date>(1995)</date>
+	<length>140 minutes</length>
+    </movie>
+
+    <movie genre="comedy" star="Tom Hanks">
+        <name>Forrest Gump</name>
+	<date>(1994)</date>
+	<length>142 minutes</length>
+    </movie>
+
+    <movie genre="drama" star="Tom Hanks">
+        <name>Philadelphia</name>
+	<date>(1993)</date>
+	<length>125 minutes</length>
+    </movie>
+
+    <movie genre="comedy" star="Tom Hanks">
+        <name>Big</name>
+	<date>(1988)</date>
+	<length>104 minutes</length>
+    </movie>
+
+</movies>

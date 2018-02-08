@@ -1,0 +1,84 @@
+Country: Canada
+Year Admitted: 1924
+Number of Athletes: 206
+Gold Medals: 14
+Silver Medals: 7
+Bronze Medals: 5
+Flag Bearer: Clara Hughes
+Sport: Speed skating
+
+Country: Estonia
+Year Admitted: 1928
+Number of Athletes: 30
+Silver Medals: 1
+Flag Bearer: Roland Lessing
+Sport: Biathlon
+
+Country: Senegal
+Year Admitted: 1984
+Number of Athletes: 1
+Flag Bearer: Leyti Seck
+Sport: Alpine Sking
+
+Country: Great Britain
+Year Admitted: 1924
+Number of Athletes: 52
+Gold Medals: 1
+Flag Bearer: Shelley Rudman
+Sport: Skeleton
+
+Country: Greece
+Year Admitted: 1896
+Number of Athletes: 7
+Flag Bearer: Athanassios Tsakiris
+Sport: Biathlon
+
+Country: Australia
+Year Admitted: 1936
+Number of Athletes: 40
+Gold Medals: 2
+Silver Medals: 1
+Flag Bearer: Torah Bright
+Sport: Snowboard
+
+Country: Germany
+Year Admitted: 1928
+Number of Athletes: 153
+Gold Medals: 10
+Silver Medals: 13
+Bronze Medals: 7
+Flag Bearer: André Lange
+Sport: Bobsleigh
+
+Country: France
+Year Admitted: 1924
+Number of Athletes: 108
+Gold Medals: 2
+Silver Medals: 3
+Bronze Medals: 6
+Flag Bearer: Vincent Defrasne
+Sport: Biathlon
+
+Country: Cayman Islands
+Year Admitted: 2010
+Number of Athletes: 1
+Flag Bearer: Dow Travers
+Sport: Alpine skiing
+
+Country: Russia
+Year Admitted: 1956
+Number of Athletes: 177
+Gold Medals: 3
+Silver Medals: 5
+Bronze Medals: 7
+Flag Bearer: Aleksey Morozov
+Sport: Ice hockey
+
+Country: Sweden
+Year Admitted: 1924
+Number of Athletes: 106
+Gold Medals: 5
+Silver Medals: 2
+Bronze Medals: 4
+Flag Bearer: Peter Forsberg
+Sport: Ice hockey

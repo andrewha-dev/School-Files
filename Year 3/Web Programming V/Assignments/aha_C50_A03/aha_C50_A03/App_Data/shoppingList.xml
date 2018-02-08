@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShoppingList>
+  <ShoppingEntry>
+    <Product Category="Other">
+      <Name>Gasoline</Name>
+      <Price>$7.99</Price>
+    </Product>
+    <Quantity>5</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Art">
+      <Name>Paint</Name>
+      <Price>$5.99</Price>
+    </Product>
+    <Quantity>1</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Beverages">
+      <Name>Coca-Cola</Name>
+      <Price>$12.99</Price>
+    </Product>
+    <Quantity>12</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Electronics">
+      <Name>Computer</Name>
+      <Price>$1000.99</Price>
+    </Product>
+    <Quantity>10</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Home">
+      <Name>Bath</Name>
+      <Price>$19</Price>
+    </Product>
+    <Quantity>1</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Music">
+      <Name>Richard Chan CD</Name>
+      <Price>$999.99</Price>
+    </Product>
+    <Quantity>1</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Sporting">
+      <Name>Hockey Stick</Name>
+      <Price>$99.99</Price>
+    </Product>
+    <Quantity>7</Quantity>
+  </ShoppingEntry>
+  <ShoppingEntry>
+    <Product Category="Toys">
+      <Name>Hot Wheels</Name>
+      <Price>$2.99</Price>
+    </Product>
+    <Quantity>6</Quantity>
+  </ShoppingEntry>
+</ShoppingList>
+<!--Andrew Ha - 420-C50 - A03-->

@@ -1,0 +1,36 @@
+countries {
+		display: block; 
+		font-family: Arial, Helvetica, Sans-serif; 
+        font-size:10pt; 
+		border: 1px solid black; 
+		margin: 5px; 
+		padding: 15px;
+}
+
+country 	{
+		display:block; 
+		margin-bottom: 20 px;
+}
+
+name        {
+		font-size:14pt; 
+		color:FireBrick; 
+		font-weight:bold;
+}
+
+name, athletes, medals, flagBearer  {
+		display:block
+}
+
+name, year  {
+		display: inline
+}
+
+bName, sport {
+		display: inline
+}
+
+bName         {
+		font-weight:bold; 
+		padding-right:0.5em
+}

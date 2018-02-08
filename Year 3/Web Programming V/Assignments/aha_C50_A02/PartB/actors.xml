@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="actors.css" ?>
+
+<actors>
+
+    <actor>
+        <name>Halle Berry</name>
+		<date>August 14, 1966</date>
+		<birthplace>Cleveland, Ohio</birthplace>
+    </actor>
+
+    <actor>
+		<name>Tom Hanks</name>
+		<date>July 9, 1956</date>
+		<birthplace>Concord, California</birthplace>
+    </actor>
+
+</actors>

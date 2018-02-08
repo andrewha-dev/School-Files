@@ -1,0 +1,41 @@
+/* Author: Andrew Ha 
+ * October 10, 2017
+ */
+@namespace mov url(http://csdev.cegep-heritage.qc.ca/mov);
+
+mov|movie {
+	display:block; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+mov|name, mov|date, mov|length  {
+	display: inline;
+}
+
+mov|name {
+	font-style: bold;
+}
+
+mov|length {
+	font-style: italics; 
+	padding-left: 0.5em;
+}
+
+/* place namespace escape style below */
+mov\:movie {
+	display:block; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+mov\:name, mov\:date, mov\:length  {
+	display: inline;
+}
+
+mov\:name {
+	font-style: bold;
+}
+
+mov\:length {
+	font-style: italics; 
+	padding-left: 0.5em;
+}

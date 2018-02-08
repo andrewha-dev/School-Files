@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./invoice.xsl"?>
+<invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./invoice.xsd">
+	<info invoice_number="1">
+		<invoice_date>2016-10-10</invoice_date>
+		<bill_rate>50</bill_rate>
+	</info>
+	<client Client_Id="3">
+		<Client_Name>Alden Books</Client_Name>
+		<Contact_Lastname>Hood</Contact_Lastname>
+		<Contact_Firstname>Donna</Contact_Firstname>
+		<Client_Street>74 Benton</Client_Street>
+		<Client_City>Gatineau</Client_City>
+		<Client_Province>QC</Client_Province>
+		<Client_Postalcode>J8Y6T3</Client_Postalcode>
+		<Client_Discount>0.05</Client_Discount>
+	</client>
+	<work_record work_number="3">
+		<billed_hours>1</billed_hours>
+		<work_date>2016-09-30</work_date>
+		<work_description>Install cable</work_description>
+		<work_type_number>CA</work_type_number>
+	</work_record>
+	<work_record work_number="4">
+		<billed_hours>2</billed_hours>
+		<work_date>2016-10-02</work_date>
+		<work_description>Server setup and OS installation</work_description>
+		<work_type_number>HA</work_type_number>
+	</work_record>
+	<work_record work_number="1">
+		<billed_hours>4</billed_hours>
+		<work_date>2016-08-31</work_date>
+		<work_description>Hub and router setup</work_description>
+		<work_type_number>HA</work_type_number>
+	</work_record>
+	<work_record work_number="6">
+		<billed_hours>2</billed_hours>
+		<work_date>2016-07-07</work_date>
+		<work_description>PC Repair - Bad NIC</work_description>
+		<work_type_number>HA</work_type_number>
+	</work_record>
+	<work_record work_number="11">
+		<billed_hours>2</billed_hours>
+		<work_date>2016-10-09</work_date>
+		<work_description>New PC Setup</work_description>
+		<work_type_number>HA</work_type_number>
+	</work_record>
+</invoice>

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/partA.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <title>Part A</title>
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Client / Invoice Viewer</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li id="home"><a href="partA.html">Part A</a></li>
+        <li><a href="partB.html">Part B</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid formDiv">
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-offset-4 col-lg-offset-4  formClass">
+      <form id="clients">
+        <select class="form-control">
+              <option selected disabled >Clients</option>
+          </select>
+      </form>
+    </div>
+  </div>
+  <div id="main" class="container-fluid col-sm-10 col-sm-push-1 col-md-push-2 col-md-8">
+    <div class="container-fluid clientDisplay col-sm-6"></div>
+    <div class="container-fluid workRecDiv col-sm-6">
+      <div class="workRecordDisplay">
+      </div>
+      <div>
+        <button class="btn btnPrevious btn-primary">Previous</button>
+        <button class="btn btnNext btn-primary">Next</button>
+      </div>
+      <div class="container-fluid row col-xs-6">
+          <label for="txtSearch"><b>Search:</b></label>
+          <input id="txtSearch" name='txtSearch' class="form-control input input-sm" type="text">
+          <button class="btn btnSearch btn-primary">Search</button>
+
+          <div class="container-fluid row">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./scripts/partA.js"></script>
+</body>
+
+</html>
