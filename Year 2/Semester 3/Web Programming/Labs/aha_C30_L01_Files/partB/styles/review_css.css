@@ -1,0 +1,21 @@
+.bigtext {
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+}
+#outerdiv {
+	margin: auto;
+	width: 90%;
+	background-color: #CCC;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+.emphasize {
+	font-weight: bold;
+	color: #00f;
+}
+h1 {
+	font-size: 3em;
+	color: #f00;
+	background-color: #ff0;
+}

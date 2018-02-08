@@ -1,0 +1,22 @@
+#container {
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+}
+label {
+	margin-right: 1em;
+	float: left;
+	width: 7em;
+	text-align:right;
+}
+input {
+	clear: left;
+	width: 50em;
+	
+}
+
+#submit {
+	margin-left: 9.5em;
+	
+}
+

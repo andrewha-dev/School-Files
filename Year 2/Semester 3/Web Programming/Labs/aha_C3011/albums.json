@@ -1,0 +1,516 @@
+{
+  "album": [
+    {
+      "genre": "Country",
+      "albumName": "Montevallo",
+      "artist": "Sam Hunt",
+      "company": "Universal Music",
+      "condition": "M",
+      "year": "2014",
+      "price": "$26.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Jekyll Plus Hyde",
+      "artist": "Zac Brown Band",
+      "company": "In the Arena Productions",
+      "condition": "VG",
+      "year": "2015",
+      "price": "$28.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Kill the Lights",
+      "artist": "Luke Bryan",
+      "company": "Capitol Nashville",
+      "condition": "VG",
+      "year": "2015",
+      "price": "$23.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Old Boots, New Dirt",
+      "artist": "Jason Aldean",
+      "company": "Broken Bow Records",
+      "condition": "VP",
+      "year": "2014",
+      "price": "$16.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "The Essential Johnny Cash",
+      "artist": "Johnny Cash",
+      "company": "Universal Music",
+      "condition": "VG",
+      "year": "1955",
+      "price": "$29.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Chief",
+      "artist": "Eric Church",
+      "company": "EMI Records ",
+      "condition": "G",
+      "year": "2011",
+      "price": "$16.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Greatest Hits",
+      "artist": "Shania Twain",
+      "company": "Mercury Records",
+      "condition": "P",
+      "year": "2004",
+      "price": "$9.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Strait Country",
+      "artist": "George Strait",
+      "company": "MCA Nashville",
+      "condition": "VP",
+      "year": "1981",
+      "price": "$6.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Riser",
+      "artist": "Dierks Bentley",
+      "company": "Capitol Records",
+      "condition": "G",
+      "year": "2014",
+      "price": "$22.00"
+    },
+    {
+      "genre": "Country",
+      "albumName": "Wanted! The Outlaws",
+      "artist": [
+        "Willie Nelson",
+        "Waylon Jennings",
+        "Jessi Colter",
+        "Tompall Glaser"
+      ],
+      "company": "Sony Music",
+      "condition": "M",
+      "year": "1976",
+      "price": "$34.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "Kind of Blue",
+      "artist": [
+        "Miles Davis",
+        "John Coltrane"
+      ],
+      "company": "Columbia",
+      "condition": "M",
+      "year": "1959",
+      "price": "$40.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "Cookin",
+      "artist": "Miles Davis",
+      "company": "Prestige",
+      "condition": "VG",
+      "year": "1957",
+      "price": "$20.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "A Love Supreme",
+      "artist": "John Coltrane",
+      "company": "Analogue Productions",
+      "condition": "VG",
+      "year": "1965",
+      "price": "$23.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "Saxophone Colossus",
+      "artist": "Sonny Rollins",
+      "company": "Analogue Productions",
+      "condition": "G",
+      "year": "1956",
+      "price": "$19.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "Concert By the Sea",
+      "artist": "Erroll Garner",
+      "company": "Columbia",
+      "condition": "P",
+      "year": "1955",
+      "price": "$12.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "Spiritual Unity",
+      "artist": "Albert Ayler",
+      "company": "ESP Disk",
+      "condition": "VG",
+      "year": "1964",
+      "price": "$29.00"
+    },
+    {
+      "genre": "Jazz",
+      "albumName": "The Incredible Jazz Guitar of Wes Montgomery",
+      "artist": "Wes Montgomery",
+      "company": "Riverside Records",
+      "condition": "VP",
+      "year": "1960",
+      "price": "$11.00"
+    },
+    {
+      "genre": "Folk",
+      "albumName": "Pink Moon",
+      "artist": "Nick Drake",
+      "company": "Island",
+      "condition": "G",
+      "year": "1972",
+      "price": "$21.00"
+    },
+    {
+      "genre": "Folk",
+      "albumName": "The Bootleg Series Vol. 6: Bob Dylan Live 1964 - Concert at Philharmonic Hall",
+      "artist": "Bob Dylan",
+      "company": "Columbia",
+      "condition": "P",
+      "year": "1964",
+      "price": "$28.00"
+    },
+    {
+      "genre": "Folk",
+      "albumName": "Once I Was an Eagle",
+      "artist": "Laura Marling",
+      "company": "Virgin",
+      "condition": "P",
+      "year": "2013",
+      "price": "$23.00"
+    },
+    {
+      "genre": "Folk",
+      "albumName": "Torres",
+      "artist": "Torres",
+      "company": "Self-Released",
+      "condition": "M",
+      "year": "2013",
+      "price": "$20.00"
+    },
+    {
+      "genre": "Folk",
+      "albumName": "Fairport Convention",
+      "artist": "Liege and Lief",
+      "company": "Island Records",
+      "condition": "M",
+      "year": "1967",
+      "price": "$31.00"
+    },
+    {
+      "genre": "Folk",
+      "albumName": "Mr. Tambourine Man",
+      "artist": "The Byrds",
+      "company": "Columbia",
+      "condition": "P",
+      "year": "1965",
+      "price": "$18.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+      "artist": "The Beatles",
+      "company": "EMI",
+      "condition": "M",
+      "year": "1967",
+      "price": "$44.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "Whole Lotta Shakin' ",
+      "artist": "Carl Perkins",
+      "company": "CBS",
+      "condition": "P",
+      "year": "1958",
+      "price": "$12.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "Ray Charles",
+      "artist": "Ray Charles",
+      "company": "Amiga",
+      "condition": "G",
+      "year": "1957",
+      "price": "$14.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "Go Bo Diddley",
+      "artist": "Bo Diddley",
+      "company": "Hallmark Records",
+      "condition": "VP",
+      "year": "1959",
+      "price": "$6.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "King Creole ",
+      "artist": "Elvis Presley",
+      "company": "RCA Victor",
+      "condition": "G",
+      "year": "1958",
+      "price": "$19.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "Buddy Holly",
+      "artist": "Buddy Holly",
+      "company": "EMI",
+      "condition": "VG",
+      "year": "1958",
+      "price": "$14.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "The \"Chirping\" Crickets",
+      "artist": "The Crickets",
+      "company": "Brunswick Records",
+      "condition": "P",
+      "year": "1957",
+      "price": "$14.00"
+    },
+    {
+      "genre": "Oldies",
+      "albumName": "Rock 'n' Roll Stage Show",
+      "artist": "Bill Haley and His Comets",
+      "company": "Decca Records",
+      "condition": "VG",
+      "year": "1956",
+      "price": "$25.00"
+    },
+    {
+      "genre": "Pop",
+      "albumName": "1989",
+      "artist": "Taylor Swift",
+      "company": "Big Machine Records",
+      "condition": "VP",
+      "year": "2014",
+      "price": "$2.00"
+    },
+    {
+      "genre": "Pop",
+      "albumName": "Delirium",
+      "artist": "Ellie Goulding",
+      "company": "Polydor Records",
+      "condition": "P",
+      "year": "2015",
+      "price": "$12.00"
+    },
+    {
+      "genre": "Pop",
+      "albumName": "Title",
+      "artist": "Meghan Trainor",
+      "company": "Epic Records",
+      "condition": "M",
+      "year": "2015",
+      "price": "$23.00"
+    },
+    {
+      "genre": "Pop",
+      "albumName": "In the Lonely Hour",
+      "artist": "Sam Smith",
+      "company": "Capitol Records",
+      "condition": "M",
+      "year": "2014",
+      "price": "$27.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "Ready to Die",
+      "artist": "The Notorious B.I.G.",
+      "company": "Big Beat Records",
+      "condition": "G",
+      "year": "1994",
+      "price": "$21.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "It Takes a Nation of Millions to Hold Us Back",
+      "artist": "Public Enemy",
+      "company": "Columbia",
+      "condition": "VG",
+      "year": "1988",
+      "price": "$20.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "The Chronic",
+      "artist": "Dr Dre",
+      "company": "Priority Records",
+      "condition": "M",
+      "year": "1992",
+      "price": "$23.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "Straight Outta Compton",
+      "artist": "NWA",
+      "company": "Ruthless Records",
+      "condition": "P",
+      "year": "1988",
+      "price": "$19.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "AmeriKKKa's Most Wanted",
+      "artist": "Ice Cube",
+      "company": "Priority Records",
+      "condition": "VP",
+      "year": "1990",
+      "price": "$12.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "Reasonable Doubt",
+      "artist": "Jay-Z",
+      "company": "Priority Records",
+      "condition": "M",
+      "year": "1996",
+      "price": "$24.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "Raising Hell",
+      "artist": "Run�D.M.C.",
+      "company": "Arista Records",
+      "condition": "G",
+      "year": "1986",
+      "price": "$21.00"
+    },
+    {
+      "genre": "Rap",
+      "albumName": "The Slim Shady LP",
+      "artist": "Eminem",
+      "company": "Interscope Records",
+      "condition": "VG",
+      "year": "1999",
+      "price": "$22.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Revolver",
+      "artist": "The Beatles",
+      "company": "Capitol Records",
+      "condition": "G",
+      "year": "1966",
+      "price": "$19.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "London Calling",
+      "artist": "The Clash",
+      "company": "Epic Records",
+      "condition": "M",
+      "year": "1979",
+      "price": "$26.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Led Zeppelin [IV]",
+      "artist": "Led Zeppelin",
+      "company": "Atlantic Records",
+      "condition": "VG",
+      "year": "1971",
+      "price": "$32.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Are You Experienced?",
+      "artist": "The Jimi Hendrix Experience",
+      "company": "Track Record",
+      "condition": "P",
+      "year": "1967",
+      "price": "$63.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Who's Next ",
+      "artist": "The Who",
+      "company": "Decca Records",
+      "condition": "G",
+      "year": "1971",
+      "price": "$21.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "artist": "David Bowie",
+      "company": "RCA Victor",
+      "condition": "M",
+      "year": "1972",
+      "price": "$53.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Back in Black",
+      "artist": "AC/DC",
+      "company": "Atlantic",
+      "condition": "VG",
+      "year": "1980",
+      "price": "$28.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "The Doors",
+      "artist": "The Doors",
+      "company": "Elektra Records",
+      "condition": "VP",
+      "year": "1966",
+      "price": "$12.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Rumours",
+      "artist": "Fleetwood Mac",
+      "company": "Warner Bros Records",
+      "condition": "VG",
+      "year": "1977",
+      "price": "$24.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Paranoid",
+      "artist": "Black Sabbath",
+      "company": "Warner Bros Records",
+      "condition": "VP",
+      "year": "1970",
+      "price": "$6.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Hotel California",
+      "artist": "Eagles",
+      "company": "Asylum Records",
+      "condition": "M",
+      "year": "1976",
+      "price": "$30.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Van Halen",
+      "artist": "Van Halen",
+      "company": "Warner Bros Records",
+      "condition": "G",
+      "year": "1978",
+      "price": "$23.00"
+    },
+    {
+      "genre": "Rock",
+      "albumName": "Never Mind the Bollocks Here's the Sex Pistols",
+      "artist": "Sex Pistols",
+      "company": "Warner Bros Records",
+      "condition": "P",
+      "year": "1977",
+      "price": "$23.00"
+    }
+  ]
+}

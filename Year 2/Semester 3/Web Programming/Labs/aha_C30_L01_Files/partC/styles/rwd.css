@@ -1,0 +1,146 @@
+body {
+	background-color: #B7FFB7;
+}
+#wrapper {
+	width: auto;
+}
+
+#banner {
+	background-color: #060;
+	color: #efefef;
+}
+
+
+#nav {
+	background-color: #00D200;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+#nav ul li {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #fff;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	border-left-color: #fff;
+	display: inline;
+	color: #003c00;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	list-style-type: none;
+}
+
+
+.notmobile {
+	display: none !important; 
+}
+
+#content {
+	background-color: #060;
+	padding: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+	color: #ff9;
+}
+
+@media screen and (min-width: 700px) {
+body {
+	background-color: #D5DDFF;	
+}
+#banner {
+	background-color: #271450;
+	color: #9cf;	
+}
+
+h1 {
+	font-family: 'Italianno', cursive;
+	font-size: 2em;
+	text-shadow: 4px 4px 4px #AAA;
+	
+}
+
+#nav {
+	background-color: inherit;
+}
+#nav ul li {
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	color: #1f1f1f;
+	border: thin solid #000;	
+
+}
+.notmobile {
+	display: inline !important;
+}
+#content {
+	background-color: #006;
+	width: 100%;
+	padding-right: 5px;
+}
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+body {
+	background-color: #AAA;
+}
+
+#wrapper {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/bg.jpg);
+	overflow:auto;
+}
+#banner {
+	background-color: #c9c9c9;
+	color: #333;
+}
+
+h1 {
+	font-size: 4em;
+}
+#nav {
+	float: left;
+	width: 10em;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+#nav ul li {
+	text-align: center;
+	padding: 2px;
+	display: block;
+}
+
+
+.notmobile {
+	display: block !important;
+}
+#content {
+	background-color: #eee;
+	float: left;
+	width: 80%;
+	color: inherit;
+}
+
+}
