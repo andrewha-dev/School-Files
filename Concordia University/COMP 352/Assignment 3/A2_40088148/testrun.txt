@@ -1,0 +1,49 @@
+                   
+              Insert
+              N = 10         Insert Start           Insert End        Insert Random
+           ArrayList                    1                    0                    1
+          LinkedList                    0                    0                    0
+                   
+              Remove
+              N = 10         Remove Start           Remove End        Remove Random        Remove Object
+           ArrayList                    1                    0                    0                    0
+          LinkedList                    0                    0                    0                    0
+
+                   
+              Insert
+              N = 10         Insert Start           Insert End        Insert Random
+           ArrayList                    0                    0                    0
+          LinkedList                    0                    0                    1
+                   
+              Insert
+             N = 100         Insert Start           Insert End        Insert Random
+           ArrayList                    1                    0                    1
+          LinkedList                    0                    0                    0
+                   
+              Insert
+            N = 1000         Insert Start           Insert End        Insert Random
+           ArrayList                   17                    7                    2
+          LinkedList                    3                    1                    5
+                   
+              Insert
+           N = 10000         Insert Start           Insert End        Insert Random
+           ArrayList                  288                   60                  240
+          LinkedList                    3                    2                  516
+                   
+              Remove
+              N = 10         Remove Start           Remove End        Remove Random        Remove Object
+           ArrayList                   12                    1                    1                    6
+          LinkedList                    0                    0                    0                    0
+
+             N = 100         Remove Start           Remove End        Remove Random        Remove Object
+           ArrayList                   30                    5                   12                    1
+          LinkedList                    0                    0                    0                    3
+
+            N = 1000         Remove Start           Remove End        Remove Random        Remove Object
+           ArrayList                   60                   44                  108                   25
+          LinkedList                    1                    0                    0                   22
+
+           N = 10000         Remove Start           Remove End        Remove Random        Remove Object
+           ArrayList                  455                  472                 1080                 1504
+          LinkedList                    1                    1                    1                  675
+

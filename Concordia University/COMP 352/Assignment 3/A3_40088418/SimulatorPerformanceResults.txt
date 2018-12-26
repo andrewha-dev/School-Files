@@ -1,0 +1,14 @@
+Sorted List Priority Queue :
+Current System Time (Cycles): 3597
+Total Number Of Jobs Executed: 100
+Average Process Waiting Time: 2363.68
+Total Number Of Priority Changes: 108
+Actual System Time Needed To Execute All Jobs: 143 ms
+
+ArrayList-based Heap Priority Queue :
+Current System Time (Cycles): 3597
+Total Number Of Jobs Executed: 100
+Average Process Waiting Time: 2142.44
+Total Number Of Priority Changes: 78
+Actual System Time Needed To Execute All Jobs: 4 ms
+

@@ -1,0 +1,25 @@
+Part 3: Analysis
+The Big-O of my priority queue would be O(n^2)), this is because when I'm trying to look insert into my queue, I am looking
+for a spot in my queue which in the worse case is O(n). Then afterwards, I would need to shift everything down in my queue, and in my 
+implementation it is also going to be O(n).
+
+The Big Omega of my priority queue would be O(n), this is because if my Priority queue is already sorted then it will
+not need to shift/sort if I'm inserting in order. It will only go to the length of o(n).
+
+The Big-O of my Priority queue heap would be O(logn). This is because when inserting I am only going to be working with half 
+of the data as I insert/reshift in the list. Compared to the queue where I will always traverse linearly.
+I am accessing the parents and one of the children each time.
+
+The Big Omega of my Heap is also going to be O(logn) we are always going to be performing upheaps/downheaps on the heap 
+when performing operations. There will be no case where the heap will go O(n) unless we wanted to perform a search. Which 
+was not required.
+
+The space complexity of both of our algorithms is going to be O(n). 
+As we are only going to create the amount of jobs as specified and no more. This is the case in both the priority queue and heap.
+
+There is quite a big performance difference, at least with my implementation. The priority queue was way slower then my heap. This was 
+because in my priority queue, everytime I took something out, I would have to perform a linear probe to look for where to place it next
+and then I would have to also shift my list. Which with big numbers take a while. However, with my Heap even though I had to shift, it was
+made alot easier through the use of upheaping and downheaping. Meaning that we didnt need to look at all of our data. We didn't have to 
+shift anything, rather we just swapped.
+

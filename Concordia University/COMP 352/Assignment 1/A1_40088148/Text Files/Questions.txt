@@ -1,0 +1,55 @@
+1A) Pseudo Code:
+
+Algorithm: binaryOddonaci(n)
+	Input: Integer n that represents the number to perform the Oddonaci Sequence up to
+	Output: Integer n, Oddonaci number sum.
+	
+	if n <= 3
+		return 1
+	else
+		return binaryOddonaci(n-1) + binaryOddonaci(n-2) + binaryOddonaci(n-3)
+
+
+Algorithm: linearOddonaci(n)
+	Input: Integer n that represents the number to perform the Oddonaci Sequence up to
+	Output: Integer array of size 3, that contains the previous 3 computed numbers from the Oddonaci sequence
+	
+	tempValue <-- 0
+	arr <-- new Array() //Initialize
+	
+	if n <= 3
+		return [1, 1, 1]
+		
+	arr = linearOddonaci(n-1)
+	
+	tempValue <-- arr[0]
+	arr[0] <-- arr[1]
+	arr[1] <-- arr[2]
+	arr[2] <-- arr[0] + arr[1] + tempValue
+	
+	return arr;
+	
+B.) The first algorithm is of exponential complexity because for each of its values it will
+have to recalculate the previous Oddonaci sequence/numbers everytime. For example if we are calculating n we will have to recalculate 
+n-1, n-2 ... all the way back to 0. The second Oddonaci sequence is linear. This resolves some of the bottlenecks of the first algorithm by storing the previous 
+Oddonaci sums into an array. That way we do not need to recalculate previous Oddonaci numbers each time. As a result the complexity is linear instead of exponential.
+First algorithm is O(2^n), second algorithm is O(n).
+
+C.) My first algorithm uses tail recursion. This is because a method call to itself is the last statement in the method.
+However, my second algorithm does not use tail recusion since it returns an array as the last method call. 
+
+C2) Algorithm: tailLinearOddonaci(n)
+	Input: Integer n that represents the number to perform the Oddonaci Sequence up to
+	Output: Integer array of size 3, that contains the previous 3 computed numbers from the Oddonaci sequence
+	
+	//Under the assumption we have declared a global array 'arr'. With values [1, 1, 1]
+	//Also under the assumption arr is being reset [1, 1, 1] everytime the algorithm is being called
+	if n <= 3
+		return arr
+
+	tempValue <-- arr[0]
+	arr[0] <-- arr[1]
+	arr[1] <-- arr[2]
+	arr[2] <-- arr[1] + arr[0] + tempValue
+	
+	return tailLinearOddonaci(n-1);
